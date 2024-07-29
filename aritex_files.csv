@@ -1,0 +1,285 @@
+,,,,,,,,,,,,,,,,
+,Nombre documento,imagen/documento,Comentario al documento,Es un  Certificado de materiales con un código de material de la lista?,Es CM y el codigo debería encontrase exacto o aproximado?,Código que estamos buscando,codigo,Output,Código a buscar,Test 1 assistente Xavi,Prueba 1 buscar lista PDF,Prueba 1 Resultado de buscar código de lista con assistente Search,Test 1 ok/ko,Test 3 buscar por código de material o similar,Diagnostico prueba,
+,T00982574-11601P01,Doc,Es claro,no,Buscamos cosas que puedan ser codigos ,"No aparece un código de la lista, si aparece; PUSHING PIN ASSEMBLY (11601)",,,11601,,Not found,Not found,ok,,"No encuentra el material de la lista, es ok por que aparentemente no está si busco por el código PUSHING PIN ASSEMBLY (11601), si lo encuentra",ok
+,V885-74692-000W6000-01A00-,Imagen,Es mas o menos clara ,si,Exacto,El código que aparece es: 42CrMoS4 (+QT),,,42CrMoS4 (+QT),,Not found,42CrMoS4+QT+ equivalente 1.7225,ok,,,ok
+,MC_T000995752-20302P01.pdf,Doc,Hay certificado de recepción y materiales,si,Aproximado,"Amstrong Ultra 690QL1, en la lista aparece S690Q",,,S690Q,,"ok, pero no discrimina si es en el certificado de materiales o de recepción",ko devuelve materiales de la lista que no están en la imagen,ko,,,
+,MC_T000995752-70008P01,Imagen ,Es un certificado de calidad ok pero sin equivalencias en la lista,no,Buscamos cosas que puedan ser codigos ,POdria ser Colada/heatA0804976 o plate316,,,Plate 316,,Not found,"The document appears to be a delivery note or documentation delivery form related to an order. It includes details such as the type of document requirement, supplier, order number, date, part number, and quantity. However, it does not contain any material codes or references to specific materials from the provided list.
+If you need further assistance or have another document to search, please let me know!",ok,,,
+,MC_TLAP01F46C551723000-0019.pdf,Doc,Es un certificado de calidad pero lo pone al final,si,Aproximado,Parece este: PA-6 G pero lo mas parecido en la lista es: PA-66,,,PA-66,,found-not in list,"The document you provided is a delivery note for materials. The material mentioned in the document is:
+PA-6 G (Polyamide 6, cast)
+This material is also referred to by commercial names such as Ertalon and Nylon.
+There is no direct match for PA-6 G in the provided list of materials. The provided list contains various steel, aluminum, and copper alloys, but no polyamide or nylon materials.
+If you need further assistance or have more documents to analyze, please let me know!",ok,,,
+,MC_TO55014Z00-F46C551_030012.pdf,imagen,Es un certificado de calidad,si,Exacto,"Aparece 42CrM04, en la lista aparece uno similar 42CrMoS4
+
+",,,42CrMoS4,,found with error,"The document appears to be a delivery note or documentation delivery form. It includes details such as the type of document requirement, supplier, order number, date, part number, and quantity.
+The material code mentioned in the document is ""TO55014Z00-F46C551_030012""[1].
+This specific material code does not seem to match any of the material codes listed in your provided lists. The format and structure of the code are different from the codes in your lists, which typically follow standards like ""S2355J0H"", ""1.0547"", ""S690Q"", etc.
+If you need further assistance or a more specific match, please provide additional context or details.",ko,,,
+,MC_TO55015Z00-F46C551_010301,Imagen ,Es un certificado,SI,Aproximado,"AL6082 T6 - en la lista aparece EN AW-6082T6
+",,,EN AW-6082T6,,found with error,"The document appears to be a ""Documentation Delivery"" form related to a specific order. The material code mentioned in the document is ""TO55015Z00-F46C551_010301""[1].
+This material code does not directly match any of the material codes listed in the provided lists. The provided lists contain codes such as ""S2355J0H"", ""1.0547"", ""S690Q"", etc., which are standardized material codes often used in engineering and manufacturing.
+The differences are:
+The format of the material code in the document (""TO55015Z00-F46C551_010301"") does not match the standardized formats in the provided lists.
+The document's code appears to be a specific identifier, possibly internal to a company or project, rather than a standardized material designation.
+If you need further assistance or a specific match, please provide additional context or details.",ko,,,
+,MC_U632A000005000001_S9702.pdf,imagen,Certificado de calidad. Una imagen muy mala ,si,Aproximado,"S355 J2 + en 10025-2, lo mas parecido en la lista es S355JR",,"S355JR - Found in the list of materials.
+S275JR - Found in the list of materials.
+S235JR - Found in the list of materials.
+1.0038 - Found in the list of other denominations of materials equivalents.
+1.0045 - Found in the list of other denominations of materials equivalents.",S355JR,,found,,,,"Ha encontrado lo mas parecido pero, devuelve algunos que no están en el pdf",
+,MC_U632A00000500005_S9702,imagen,Certificado de calidad. Imagen muy mala,si,Aproximado,"Parece que es S35512H o EN10219, lo mas parecido es el S355JR",,"S355JR[1]
+S275JR",S355JR,,found with error,"The document appears to be a delivery note or documentation delivery form for a material order. The material code referenced in the document is U632A00000500005_S9702[1].
+This code does not directly match any of the material codes listed in the provided lists. The provided lists contain material codes like S2355J0H, 1.0547, S690Q, 1.8931, etc., which follow standard material naming conventions.
+If you need further assistance or more specific information, please let me know!",ko,,ha encontrado lo más parecido pero no exacto,
+,MC_U632A00000500998_S9702,imagen,Parece una certificado de calidad y uno de colada/inspección. imagen pesima,no,Buscamos cosas que puedan ser codigos ,No puedo identificar el numero de nada por que no se ve.. lo he intentado con varios,,"1.1191 - Found in the list of materials.
+1.7225 - Found in the list of materials.
+1.7227 - Found in the list of materials.
+1.7131 - Found in the list of materials.
+1.4301 - Found in the list of materials.
+1.4401 - Found in the list of materials.
+1.0038 - Found in the list of materials.
+1.0039 - Found in the list of materials.
+1.0044 - Found in the list of materials.
+1.0045 - Found in the list of materials.
+1.0547 - Found in the list of materials.
+1.8931 - Found in the list of materials.",n/A,,not found,,ok,,Encuentra códigos que no se pueden validar y que probablemente no estén todos,
+,MC_U632A00000500099_S9702,imagen,Certificado de material. Se ve muy clarita ,Si,Aproximado,"S355J2+AR, lo mas parecido es S355JR",,"C45E - Found in the list of materials.
+1.1191 - Found in both the list of materials and the list of other denominations of materials equivalents.
+F-114 - Found in both the list of materials and the list of other denominations of materials equivalents.
+Ck45 - Found in both the list of materials and the list of other denominations of materials equivalents.",S355JR,,not found,"""The document appears to be a certificate of material for a specific part. Here are the details extracted:
+Document Type: Certificate of Material
+Supplier: PISSMEC S.L
+Order Number: C-PE23/01739
+Date: 05/07/2024
+Part Number: U632A00000500099_S9702
+Quantity: 4
+Unfortunately, the document does not explicitly list a material code that matches the provided list. If you need further assistance or a more detailed search, please let me know!""",,,No encuentra lo mas parecido,
+,MC_V885-74692-000W6000-01A00-20301P01,doc,"Se ve bien, pdf con entridades diferenciables y cabeceras descriptivas",Si,Exacto,Parece que Formodal -030-PLAN O EN AW5080 gUSS. En la lista aparece AW5083,,"1.7225 - Found in the list of materials[1].
+1.7227 - Found in the list of materials[2].
+1.1191 - Found in the list of materials[3].
+1.4301 - Found in the list of materials[4].
+1.4401 - Found in the list of materials[5].
+S235JR - Found in the list of materials[6].
+S275JR - Found in the list of materials[7].
+S355JR - Found in the list of materials[8].
+S355J0H - Found in the list of materials[9].
+S275J0H - Found in the list of materials[10].",AW5083,,found,,,,No encuentra lo mas parecido,
+,MC_V885-74692-000W6000-01A00-20801P01,imagen,"Mala calidad de imagen, escaneada al reves",si,Exacto,Parece que hay que encontrar AW5083 QUE ESTÁ EN LA LISTA,,EN AW-5083,AW5083,,found,"The document appears to be a delivery note or documentation delivery form for a specific order. It includes details such as the supplier, order number, date, part number, and quantity. The material code mentioned in the document is ""5083,"" which corresponds to ""EN AW-5083; L-3321; AlMg4,5Mn0,7"" from the provided list.
+Here is the relevant part of the document:
+Material code: 5083
+This matches with:
+EN AW-5083; L-3321; AlMg4,5Mn0,7
+If you need further details or another specific material, please let me know!",,,ok,
+,MC_V885-74692-01A00-41400A01.pdf,imagen,Una imagen torzida pero clara,si,Exacto,42CrMoS4 (+QT) EN EL EXCEL APARECE TAL CUAL,,"Material: S355JR
+
+List: Materials, Materials Interchangeables
+Material: 1.0038
+
+List: Materials, Other Denominations
+Material: 1.1191
+
+List: Materials, Other Denominations
+Material: 1.7225
+
+List: Materials, Other Denominations
+Material: 1.7227
+
+List: Materials, Other Denominations
+Material: 1.7131
+
+List: Materials, Other Denominations
+Material: 1.4301
+
+List: Materials, Other Denominations
+Material: 1.4401
+
+List: Materials, Other Denominations
+Material: AlMg4,5Mn0,7
+
+List: Materials, Other Denominations
+Material: AlMg0,7Si
+
+List: Materials, Other Denominations
+Material: AlSi1MgMn
+
+List: Materials
+Material: AlZn5,5MgCu
+
+List: Materials, Other Denominations
+Material: S235JR
+
+List: Materials, Materials Interchangeables
+Material: S275JR
+
+List: Materials, Materials Interchangeables
+Material: S355J0H
+
+List: Materials, Materials Interchangeables
+Material: S275J0H
+
+List: Materials, Materials Interchangeables
+Material: 1.0044
+
+List: Other Denominations
+Material: 1.0149
+
+List: Other Denominations",42CrMoS4 (+QT),,found with error,"The document appears to be a ""Documentation Delivery"" form related to a specific order. The material code mentioned in the document is ""V885-74692-01A00-41400A01""[1].
+This code does not directly match any of the material codes listed in the provided lists. The provided lists contain material codes like ""S2355J0H"", ""1.0547"", ""S690Q"", ""1.8931"", etc., which are standardized material designations. The code ""V885-74692-01A00-41400A01"" seems to be a specific part or order number rather than a standardized material code.",,,"No encuentra el material, que esta en el pdf y la lista",
+,MC_T000995752-20302P01.pdf,,Aparece un certificado de recepción + uno de materiales,si,Aproximado,En el documento aparece S690QL en la lista lo mas parecido es S690Q,,"S690QL - This belongs to the list of materials.
+1.8928 - This belongs to the list of other denominations of materials equivalents.",S690Q,,found,"The document you provided appears to be an inspection certificate for steel plates. The material code mentioned in the document is S690QL, which corresponds to the steel designation 1.8928 according to the EN 10025-6:2019 standard[1].
+Comparing this with the list you provided:
+S690Q; 1.8931
+The material code S690QL (1.8928) is very similar but not exactly the same as S690Q (1.8931). The difference lies in the specific sub-grade of the steel, where ""L"" typically indicates a lower temperature toughness requirement compared to ""Q"".
+If you need further assistance or more details, please let me know!",,,Encuentra el código pero no es exacto con la lista (devuelve el valor del documento,
+,MC_T000991555-00119P01,doc,Es un documento de calidad. Es una imagen de un pdf. Se ve bien ,no,Buscamos cosas que puedan ser codigos ,En el documento aparece COLADA/HEAT 10046105 lo mas parecido en la lista es 10046105,,,10046105,,not found,"It seems that the search did not yield any results. To assist you better, could you please specify the material code or name you are looking for within the document? This will help me narrow down the search effectively.",ok,,,
+,MC_T000989527-41304P01,imagen,Inpection/quality certificate. Es una imagen,no,Buscamos cosas que puedan ser codigos ,"No puedo identificar nada parecido a los códigos de la lista. Parece Steel STRENX700MLH, nada parecido en la lista",,Steel grade STRENX 700MLH - This material is not listed in any of the provided lists.,"Steel STRENX700MLH,",,found-not in list,"The document refers to the material ""STRENX 700MLH"" with the material ID ""02-1308-40527668""[1].
+This material is not listed in the provided list of materials. The closest match in terms of high-strength steel grades might be ""S690Q"" or ""1.8931"", but these are not exact matches. The provided list does not include ""STRENX 700MLH"".",ok,,Encuentra lo que hay en el documento como material pero no se parece a nada de la lista,
+,MC_T000989527-21506P01,doc,"Es un certificado de inspección, es documento",si,Exacto,"En producto aparece esto: PERFORM 700 / S700MC
+LAMINADO EN CALIENTE
+DIN EN 10149-2 - 10.2019, En la lista aparece '1.0149",,,1.0149,not found ,found,"S700MC: This is found under the ""Producto"" section, indicating the material as ""PERFORM 700 / S700MC""",ko,"Yes, the material code ""EN 10149-2"" is present in the document. It is listed under the ""Producto"" section as ""DIN EN 10149-2 - 10.2019",,
+,MC_T000982574-99999P01,doc,Documento de inspección. Es Documento,si,Aproximado,"Apartado steel grade, valor: S690QL. Lo mas parecido en la lista es S690Q",,,S690Q,,found,"S690QL: This is found under the ""Steel grade and terms of delivery"" section, indicating the material as ""S690QL",ok,"Yes, the material code ""S690Q"" is present in the document. It is listed under the ""Steel grade and terms of delivery"" section as ""S690QL""",,
+,MC_T000982574-50001P01.pdf,imagen,Documento de inspección. Es imagen,si,Exacto,Aparece EN AW 5083 que está en la lista como EN AW-5083,,,EN AW-5083,"The material code in the image is:
+
+ALUMINIO AW5083
+
+This material code does not match any codes in the provided list.",found,"I can't find the material code in the image you provided. Please upload the document or provide a clearer image, and I'll help you identify the material code",ko,"Yes, the material code ""EN AW-5083"" is present in the image. It is listed under the ""Designación / Designation"" section as ""ALUMINIO AW5083"".",,
+,MC_T000982574-33003P01.pdf,imagen,Es imagen de un certificado de inspección,no,Buscamos cosas que puedan ser codigos ,"En el apartado material aparece: 53-4506-674962, no hay nada parecido en la lista",,,53-4506-674962,1.0546,found,"The material code ""S-450J0"" is found in the image. This code belongs to the list of materials provided.",ko,"Yes, the material code ""53-4506-674962"" is found in the image.",,
+,MC_T000982574-31023P01.pdf,doc,Es documento pero parece una oferta/ ficha técnica de producto: Solid polycarbonate sheet,no,Buscamos cosas que puedan ser codigos ,"parece EN 13501-1, nada parecido en la lista",,,EN 13501-1,Not found,not found,Not found,ok,This indicates that the material complies with the EN 13501-1 standard for fire classification in Europe.,,
+,MC_T000982574-30033P01.pdf,doc,Documento certificado de calidad ,si,Exacto,Aparece BRONCE CuSn12C -  que está en lista,,,CuSn12C,Not found,found,"This indicates that the material ""CuSn12"" is mentioned in the document.",ok,"I found the material code ""CuSn12C"" in the document. Here are the details:
+
+Material Code: CuSn12C
+Description: BRONCE CuSn12C Ø61 mm
+Chemical Composition:
+Cu: Resto
+Sn: 11 a 13%
+Mechanical Characteristics:
+Tensile Strength (Kgs./mm²): 20 a 30
+Elongation (%): 3 a 5
+Hardness (HB): 80 a 110",,
+,MC_T000982574-14717P01.pdf,imagen,Es una imagen de un albarán de entrega,no,Exacto,"Se pueden reconocer varios materiales: S355J2, SR275... pero no es un certificado de materiales",,,"S355J2, SR275",,found,"He encontrado el código de material ""S355J2+N"" en la imagen proporcionada. Este código pertenece a la lista de materiales intercambiables.",ok,"No he encontrado el código de material ""SR275"" en la imagen proporcionada. Si necesitas buscar otro material o tienes alguna otra consulta, por favor, házmelo saber.",,
+,MC_T000982574-14703P01.pdf,imagen,Es una imagen de un certificado de calidad,si,Exacto,Se reconcoe S690QL,,,S690QL,,found,"S235JR - Found in the list of materials and the list of materials intercambiables.
+S355JR - Found in the list of materials and the list of materials intercambiables.
+S275JR - Found in the list of materials and the list of materials intercambiables.
+S275J0H - Found in the list of materials and the list of materials intercambiables.
+S355J0H - Found in the list of materials and the list of materials intercambiables.",ko,,,
+,MC_T000982574-14019P01.pdf,imagen,Es una imagen. ,no,Buscamos cosas que puedan ser codigos ,COLADA/HEAT: 220612113/ calidad: 34CRNIMO05. No se parece a nada de la lista,,,34CRNIMO05,,found,S235JR - This material appears in the document,ko,,,
+,MC_T000982574-14011P01.pdf,imagen,Imagen de certificado de inspección ,si,Aproximado,"Aparece A240/ SA240/S33205, En la lista aparece S355",,,S355,,found,"C45E - Found in the list of materials.
+1.1191 - Found in the list of other denominations of materials equivalents.
+F-114 - Found in the list of other denominations of materials equivalents.
+Ck45 - Found in the list of other denominations of materials equivalents.",,,,
+,MC_T000982574-13303P01.pdf,imagen,Imagen de certifiado de calidad,si,Exacto,Aparece 42CrMo4 que esta en la lista,,,42CrMo4,,found,"He encontrado el siguiente código de material en la imagen proporcionada:
+S355JR
+Este código pertenece a la lista de materiales.",ko,"He encontrado el código de material ""42CrMo4"" en la imagen proporcionada. Este código pertenece a la lista de materiales.",,
+,MC_T000982574-13211P01.pdf,imagen,Imagen certificado de inspección (esta repetido con MC_T000982574-33003P01.pdf),no,Buscamos cosas que puedan ser codigos ,"En el apartado material aparece: 53-4506-674962, no hay nada parecido en la lista",,,53-4506-674962,,found,"S275JR - Pertenece a la lista de materiales y a la lista de materiales intercambiables.
+S355JR - Pertenece a la lista de materiales y a la lista de materiales intercambiables.
+S235JR - Pertenece a la lista de materiales y a la lista de materiales intercambiables.
+S355J0H - Pertenece a la lista de materiales y a la lista de materiales intercambiables.",ko,,,
+,MC_T000982574-13003P01.pdf,imagen,Es una imagen. Repetido con MC_T000982574-14019P01.pdf,no,Buscamos cosas que puedan ser codigos ,COLADA/HEAT: 220612113/ calidad: 34CRNIMO05. No se parece a nada de la lista,,,34CRNIMO05.,,not found,"The document provided appears to be a documentation delivery form related to an order. It does not contain a list of material codes or specific materials. The document includes details such as the supplier, order number, date, part number, and quantity.
+If you have another document or need further assistance, please let me know!",,,,
+,MC_T000982574-12817P01.pdf,imagen,"Imagen de certifiado de calidad, repetido con MC_T000982574-13303P01.pdf",si,Exacto,Aparece 42CrMo4 que esta en la lista,,,42CrMo4,,not found,"The document provided appears to be a documentation delivery form related to a specific order. It includes details such as the supplier, order number, date, part number, and quantity. However, it does not contain any material codes or specifications that match the list you provided.
+If you have another document or additional pages, please upload them, and I will continue to search for the material codes.",,,,
+,MC_T000982574-12706P01.pdf,imagen,Imagen de certifiado de calidad,si,Exacto,"Aparece  S275JR, esta en lista",,,S275JR,,found,"The material code ""S355JR"" from the list is found in the image you provided. It is listed under the ""Base material group"" section.
+""S355JR"" belongs to the following lists:
+Materials
+Materials Interchangeables",ok,"No, the material code ""S275JR"" is not present in the image you provided. The image lists ""S355JR"" under the ""Base material group"" section, but ""S275JR"" is not mentioned.",Ko si que está,
+,MC_T000982574-12505P01.pdf,imagen,"Imagen de certifiado de calidad, muy baja calidad de imagen",si,Exacto,"Aparece AW-7075 T651  , aparece en la  lista sin espacios AW-7075T651",,,AW-7075T651,,found,"The material code found in the image is S275JR, which belongs to the list of materials.",ko,,"No, the material code ""AW-7075 T651"" is not present in the image. The material code in the image is S275JR.",
+,MC_T000982574-12502P01.pdf,doc,Imagen certificado de inspección  ,si,Exacto,En el documento aparece S690QL en la lista lo mas parecido es S690Q,,,S690Q,,found,"The document contains the material code ""S690QL,"" which is part of the provided list of materials.
+Material Found: S690QL
+List: Materials
+This information is found in the document titled ""MC_T000982574-12502P01.pdf",ok,"The material code ""S690Q"" is found in the document titled ""MC_T000982574-12502P01.pd",,
+,MC_T000982574-11701P01,doc,Cetrificado de material en documento,no,Buscamos cosas que puedan ser codigos ,"En producto aparece: HOT WORKED BAR STEEL
+ROLLED
+ANNEALED & STRAIGHTENED
+PEEL TURNED AND POLISHED
+, no se parece a nada en la lsita",,,N/A,,found,"I found the material code ""1.4462"" in the document. This code belongs to the list of materials you provided.
+Here is the relevant excerpt from the document:
+Steel/material Designations B02
+UNS                  EN no
+S31803/S32205        1.4462
+This material code ""1.4462"" is listed under the ""Steel/material Designations"" sectio",N//D,,"Ko, por que dice que en la lista encuentra un material que no está",
+,MC_T000982574-11307P01.pdf,imagen,Imagen certificado de tratamiento,no,Buscamos cosas que puedan ser codigos ,No aparece nada que parezca un material,,,N/A,,not found,"The document appears to be a delivery note or documentation delivery form related to an order from Microlan Aerospace, S.L. It includes details such as the supplier, order number, date, part number, and quantity. However, it does not contain any material codes or references to materials from the provided list.
+If you need further assistance or have another document to check, please let me know!",,,,
+,MC_T000982574-11304P01.pdf,imagen,Imagen certificado de inspección,no,Buscamos cosas que puedan ser codigos ,No aparece nada que parezca un material,,,N/A,,not found,"The document appears to be a delivery note or documentation delivery form related to a specific order. Here are the details extracted from the document:
+Type of Document Requirement: Not specified in the visible text.
+Supplier: MICROLAN AEROSPACE, S.L.
+Order Number: C-PE23/02552
+Date: 05/07/2024
+Part Number: T000982574-11304P01
+Quantity: 434
+The document does not specify any material codes or types directly. If you need to find specific material codes or specifications, please provide more context or specify the section of the document where this information might be located.
+
+For further assistance, you might need to provide additional details or another document that contains the material codes or specifications you are looking for.",,,,
+,MC_T000982574-11302P01.pdf,DOc,Certificado inspección doc,si,Aproximado,"S355J2H+AR, lo mas parecido es S355JR",,,S355JR,,found,"I found the material code ""S355J2H"" in the document you provided. This material code belongs to the list of materials you provided.
+Here is the relevant excerpt from the document:
+Steel grade S355J2H Z3
+This material code ""S355J2H"" is listed under the materials category in your provided list",ko,"The material code ""S355JR"" was not found in the document. However, a similar material code ""S355J2H"" was found. The difference between ""S355JR"" and ""S355J2H"" lies in their impact test requirements and specific applications:
+
+S355JR: This grade has a minimum yield strength of 355 MPa and is suitable for general structural applications. It requires a Charpy V-notch impact test at room temperature (20°C) with a minimum energy of 27 Joules.
+
+S355J2H: This grade also has a minimum yield strength of 355 MPa but is used for hollow sections and requires a Charpy V-notch impact test at a lower temperature (-20°C) with a minimum energy of 27 Joules.
+
+Here is the relevant excerpt from the document:
+
+Steel grade S355J2H Z3
+This material code ""S355J2H"" is listed under the materials category in your provided list[1].",,
+,MC_T000982574-11105P01.pdf,imagen,Imagen certificado material,si,Exacto,"Aparece Alumini 6082 T6, en la lsita está como EN AW-6082T6",,,EN AW-6082T6,,found not in list,"The material ""ALUMINIO 6082 T6"" mentioned in the image corresponds to ""EN AW-6082T6; AlSi1MgMn"" from the provided list of materials.",ok,"The material code ""EN AW-6082T6"" does not appear explicitly in the image. However, the image mentions ""ALUMINIO 6082 T6,"" which is a similar designation.
+
+Explanation of the Difference:
+EN AW-6082T6: This is the European standard designation for the aluminum alloy, where ""EN"" stands for European Norm, ""AW"" stands for Aluminum Wrought, and ""6082"" is the specific alloy number. The ""T6"" indicates the temper, which means the alloy has been solution heat-treated and artificially aged.
+ALUMINIO 6082 T6: This is a more general or commercial designation that refers to the same alloy and temper but does not follow the formal European standard notation.
+In essence, both designations refer to the same material, but ""EN AW-6082T6"" is the formal standard code, while ""ALUMINIO 6082 T6"" is a more general term used in commercial contexts.",,
+,MC_T000982574-11101P01.pdf,Doc,Certificado,si,Aproximado,"Aparece S32205 y S31203, en la lista se parece a S355JR",,,S355JR,,found not in list,"I found the following material codes from the provided list in the document:
+
+1.4462 - This belongs to the list of materials[1].",ko,"I found the material 1.4462 in the document, which is not in the provided list but is similar to some materials in the list. Here are the details:
+
+1.4462 is a stainless steel grade, also known as Duplex 2205.
+It is not in the provided list of materials, but it is a recognized material in the industry.
+Additionally, I found the product name Outokumpu 2205 associated with this material.
+
+For further details, you can refer to the document[1].",Ko el material no está en lista,
+,MC_T000818312-90020P01.pdf,doc,Certificado de calidad,no,Buscamos cosas que puedan ser codigos ,"Aparece en 10204, pero el valor no está en la lista, lo más parecido es: DC01        1.0330
+",,,DC01,,found not in list,"The document appears to be a quality certificate or delivery note for a specific material. The material mentioned in the document is ""Chapa esp = 10 mm Decapada DD11 (Heat 49634862)""[1].
+From the provided list of materials, there is no exact match for ""DD11"". However, ""DD11"" is a known grade of steel, typically used for cold forming. It is not explicitly listed in your provided material list, but it is a common material in the industry.
+If you need further assistance or a more detailed comparison, please let me know!",N/D,D2110,,
+,MC_MTGR02F46C553-AB-0014.pdf,image/scan,Imagen certificado de calidad,no,Buscamos cosas que puedan ser codigos ,"Aparece F1140/ C45E, LO MAS PARECIDO EN LA LISTA ES F-114",,,F-114,,not found,"The document appears to be a ""Documentation Delivery"" form related to a specific order. Here are the details extracted from the document:
+Type of Document Requirement: Not specified
+Supplier: MECANIZADOS TECNOTER, S.L.
+Order Number: C-PE23/01343
+Date: 04/07/2024
+Part Number: MTGR02F46C553-AB-0014
+Quantity: 4
+The document does not explicitly mention any material code from the provided list. If you need further assistance or a more detailed search within the document, please let me know!",N/D,"C45E, F-1140",,
+,MC_MTGR-01-D55280002-002-B (1).pdf,image/scan,iMAGEN certificado,si,Exacto,"Aparece PA66, en la lista aparece PA66",,,PA66,,not found,"The document you provided appears to be a documentation delivery form. It includes details such as the type of document requirement, supplier, order number, date, part number, and quantity. However, it does not explicitly mention any material codes or specifications that match the list you provided.
+If you have more specific sections or additional documents that might contain the material codes, please upload them, and I will assist you further.",ko,PA-66,No esta en la lista,
+,MC_M625A00010530025_S6801,doc,Imagen certificado de calidad,no,Buscamos cosas que puedan ser codigos ,"Aparece F1140/ C45E, LO MAS PARECIDO EN LA LISTA ES F-114",,,F-114,,not found,"The document appears to be a ""Documentation Delivery"" form related to a specific order. It includes details such as the supplier, order number, date, part number, and quantity. The material certificate is referenced as ""CERT. MATERIAL"" with a specific drawing and order number.
+However, the document does not explicitly list any material codes or specifications that match the provided list of materials. If you need further assistance or more detailed information, please let me know!",,"C45E, F-1140",F-1140 No esta en la lista,
+,MC_010004.pdf,doc,Documento certificado de calidad,si,Aproximado,"Aparece 16/20MnCr5, en la lista 42CrMoS4",,,42CrMoS4,,found not in list,"The document refers to the material ""16/20MnCr5"". However, in the provided list, the closest match is ""16MnCr5"". The difference is the ""20"" in the document's material code, which is not present in the list.
+Here is the relevant excerpt from the document:
+16/20MnCr5",ok,16/20MnCr5,,
+,MC_350A320014000001_S9750.pdf,image/scan,Imagen certificado de calidad,si,Aproximado,Aparece S355J2H + n. En la lista lo mas pareceido es S355JR,,,S355JR,,not found,"The document appears to be a documentation delivery note from MECANIZADOS MORENO, S.A. It includes details such as the type of document requirement, supplier, order number, date, part number, and quantity. However, it does not explicitly mention any material code from the provided list.
+If you need further assistance or a more detailed search within the document, please let me know!",,"S355J2, S275JR",,
+,MC_332A313010000017_S9701.pdf,imagen,iMAGEN certificado,si,Exacto,"Aparece PA66, en la lista aparece PA66",,,PA66,,,,,,,
+,MC_332A32502302_S9702.pdf,imagen,Imagen certificado de inspección ,si,Exacto,"Aparece S700/ EN1.0149, en la lista lo mas parecido es '1.0149",,,1.0149,,not found,"The document appears to be a documentation delivery note related to a specific order. It includes details such as the supplier, order number, date, part number, and quantity. However, it does not explicitly mention any material code from the provided list.
+Here are the details extracted from the document:
+Supplier: COMERCIAL NORJAU, S.L.
+Order Number: C-PE23/02299
+Date: 04/07/2024
+Part Number: 332A32502302_S9702
+Quantity: 2
+There is no direct match to any material code from the provided list in the document. If you need further assistance or another document to be checked, please let me know.",,S700MC-CAT A,,
+,MC_42-38N_460620_________0015_,imagen,Imagen certificado quimico y pruebas dinámicas,Si,Exacto,"Aparece en 10204/ S235JR, el valor mas parecido en la lista es: S235JR",,,S235JR,,found with error,"The document refers to the material code ""42-38N_460620_________0015_"". This specific code does not have a direct match in the provided list of material codes. The closest matches in the list are:
+42CrMo4
+42CrMo4+QT
+42CrMoS4
+42CrMoS4+QT
+However, none of these exactly match ""42-38N_460620_________0015_"". The differences lie in the specific alphanumeric sequence and formatting of the code.
+For reference, the document details are:
+Part Number: 42-38N_460620_________0015_
+Order Number: C-PE24/03327
+Date: 04/07/2024[1].",ok,"DC01, S235JR ",,
+,MC_ V885-74692-000W6000-01A00-,imagen,Imagen certificado de conformidad,si,Exacto,Aparece 42CrMoS4 (+QT) EN EL EXCEL APARECE TAL CUAL,,,42CrMoS4 (+QT),,found with error,"The document appears to be a documentation delivery form related to a specific order. The material code mentioned in the document is ""V885-74692-000W6000-01A00-"".
+However, this material code does not match any of the material codes provided in your list. The codes in your list are more standardized and follow specific naming conventions, such as ""42CrMo4"" or ""EN AW-7075T6"".
+If you need further assistance or have more documents to check, please let me know!",ok,LOCATION BALL - 42CrMoS4 (+QT),,
+,MC_ T00982574-11601P01,imagen,Imagen certificado de conformidad,no,Buscamos cosas que puedan ser codigos ,"Aparece 11601, nada parecido en la lista",,,11601,,not found,"The document provided is a ""Certificado de conformidad"" (Certificate of Conformity) for a specific order from Microlan Aerospace, S.L. It does not contain any material codes or references to materials from the list you provided.
+If you need further assistance or have another document to check, please let me know!",,PUSHING PIN ASSEMBLY (11601),,

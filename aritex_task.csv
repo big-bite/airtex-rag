@@ -1,0 +1,144 @@
+,,,,,,
+Document name,codigo,Output,Code to search,Expected result. Is it in the list?,Expected result explanation,Example
+T00982574-11601P01,,,11601,no,Find the strinc in the document,Yes perfect match
+V885-74692-000W6000-01A00-,,,42CrMoS4 (+QT),yes,Acurate,Yes perfect match
+MC_T000995752-20302P01.pdf,,,S690Q,yes,Symilar,"""The material code """"S355JR"""" was not found in the document. However, a similar material code """"S355J2H"""" was found. The difference between """"S355JR"""" and """"S355J2H"""" lies in their impact test requirements and specific applications:
+
+S355JR: This grade has a minimum yield strength of 355 MPa and is suitable for general structural applications. It requires a Charpy V-notch impact test at room temperature (20°C) with a minimum energy of 27 Joules.
+
+S355J2H: This grade also has a minimum yield strength of 355 MPa but is used for hollow sections and requires a Charpy V-notch impact test at a lower temperature (-20°C) with a minimum energy of 27 Joules.
+
+Here is the relevant excerpt from the document:
+
+Steel grade S355J2H Z3
+This material code """"S355J2H"""" is listed under the materials category in your provided list[1]."""
+MC_T000995752-70008P01,,,Plate 316,no,Find the strinc in the document,
+MC_TLAP01F46C551723000-0019.pdf,,,PA-66,yes,Symilar,
+MC_TO55014Z00-F46C551_030012.pdf,,,42CrMoS4,yes,Acurate,
+MC_TO55015Z00-F46C551_010301,,,EN AW-6082T6,yes,Symilar,
+MC_U632A000005000001_S9702.pdf,,"S355JR - Found in the list of materials.
+S275JR - Found in the list of materials.
+S235JR - Found in the list of materials.
+1.0038 - Found in the list of other denominations of materials equivalents.
+1.0045 - Found in the list of other denominations of materials equivalents.",S355JR,yes,Symilar,
+MC_U632A00000500005_S9702,,"S355JR[1]
+S275JR",S355JR,yes,Symilar,
+MC_U632A00000500998_S9702,,"1.1191 - Found in the list of materials.
+1.7225 - Found in the list of materials.
+1.7227 - Found in the list of materials.
+1.7131 - Found in the list of materials.
+1.4301 - Found in the list of materials.
+1.4401 - Found in the list of materials.
+1.0038 - Found in the list of materials.
+1.0039 - Found in the list of materials.
+1.0044 - Found in the list of materials.
+1.0045 - Found in the list of materials.
+1.0547 - Found in the list of materials.
+1.8931 - Found in the list of materials.",n/A,no,Not found,
+MC_U632A00000500099_S9702,,"C45E - Found in the list of materials.
+1.1191 - Found in both the list of materials and the list of other denominations of materials equivalents.
+F-114 - Found in both the list of materials and the list of other denominations of materials equivalents.
+Ck45 - Found in both the list of materials and the list of other denominations of materials equivalents.",S355JR,yes,Symilar,
+MC_V885-74692-000W6000-01A00-20301P01,,"1.7225 - Found in the list of materials[1].
+1.7227 - Found in the list of materials[2].
+1.1191 - Found in the list of materials[3].
+1.4301 - Found in the list of materials[4].
+1.4401 - Found in the list of materials[5].
+S235JR - Found in the list of materials[6].
+S275JR - Found in the list of materials[7].
+S355JR - Found in the list of materials[8].
+S355J0H - Found in the list of materials[9].
+S275J0H - Found in the list of materials[10].",AW5083,yes,Acurate,
+MC_V885-74692-000W6000-01A00-20801P01,,EN AW-5083,AW5083,yes,Acurate,
+MC_V885-74692-01A00-41400A01.pdf,,"Material: S355JR
+
+List: Materials, Materials Interchangeables
+Material: 1.0038
+
+List: Materials, Other Denominations
+Material: 1.1191
+
+List: Materials, Other Denominations
+Material: 1.7225
+
+List: Materials, Other Denominations
+Material: 1.7227
+
+List: Materials, Other Denominations
+Material: 1.7131
+
+List: Materials, Other Denominations
+Material: 1.4301
+
+List: Materials, Other Denominations
+Material: 1.4401
+
+List: Materials, Other Denominations
+Material: AlMg4,5Mn0,7
+
+List: Materials, Other Denominations
+Material: AlMg0,7Si
+
+List: Materials, Other Denominations
+Material: AlSi1MgMn
+
+List: Materials
+Material: AlZn5,5MgCu
+
+List: Materials, Other Denominations
+Material: S235JR
+
+List: Materials, Materials Interchangeables
+Material: S275JR
+
+List: Materials, Materials Interchangeables
+Material: S355J0H
+
+List: Materials, Materials Interchangeables
+Material: S275J0H
+
+List: Materials, Materials Interchangeables
+Material: 1.0044
+
+List: Other Denominations
+Material: 1.0149
+
+List: Other Denominations",42CrMoS4 (+QT),yes,Acurate,
+MC_T000995752-20302P01.pdf,,"S690QL - This belongs to the list of materials.
+1.8928 - This belongs to the list of other denominations of materials equivalents.",S690Q,yes,Symilar,
+MC_T000991555-00119P01,,,10046105,no,Find the strinc in the document,
+MC_T000989527-41304P01,,Steel grade STRENX 700MLH - This material is not listed in any of the provided lists.,"Steel STRENX700MLH,",no,Find the strinc in the document,
+MC_T000989527-21506P01,,,1.0149,yes,Acurate,
+MC_T000982574-99999P01,,,S690Q,yes,Symilar,
+MC_T000982574-50001P01.pdf,,,EN AW-5083,yes,Acurate,
+MC_T000982574-33003P01.pdf,,,53-4506-674962,no,Find the strinc in the document,
+MC_T000982574-31023P01.pdf,,,EN 13501-1,no,Find the strinc in the document,
+MC_T000982574-30033P01.pdf,,,CuSn12C,yes,Acurate,
+MC_T000982574-14717P01.pdf,,,"S355J2, SR275",no,Acurate,
+MC_T000982574-14703P01.pdf,,,S690QL,yes,Acurate,
+MC_T000982574-14019P01.pdf,,,34CRNIMO05,no,Find the strinc in the document,
+MC_T000982574-14011P01.pdf,,,S355,yes,Symilar,
+MC_T000982574-13303P01.pdf,,,42CrMo4,yes,Acurate,
+MC_T000982574-13211P01.pdf,,,53-4506-674962,no,Find the strinc in the document,
+MC_T000982574-13003P01.pdf,,,34CRNIMO05.,no,Find the strinc in the document,
+MC_T000982574-12817P01.pdf,,,42CrMo4,yes,Acurate,
+MC_T000982574-12706P01.pdf,,,S275JR,yes,Acurate,
+MC_T000982574-12505P01.pdf,,,AW-7075T651,yes,Acurate,
+MC_T000982574-12502P01.pdf,,,S690Q,yes,Acurate,
+MC_T000982574-11701P01,,,N/A,no,Not found,
+MC_T000982574-11307P01.pdf,,,N/A,no,Not found,
+MC_T000982574-11304P01.pdf,,,N/A,no,Not found,
+MC_T000982574-11302P01.pdf,,,S355JR,yes,Symilar,
+MC_T000982574-11105P01.pdf,,,EN AW-6082T6,yes,Acurate,
+MC_T000982574-11101P01.pdf,,,S355JR,yes,Symilar,
+MC_T000818312-90020P01.pdf,,,DC01,no,Find the strinc in the document,
+MC_MTGR02F46C553-AB-0014.pdf,,,F-114,no,Find the strinc in the document,
+MC_MTGR-01-D55280002-002-B (1).pdf,,,PA66,yes,Acurate,
+MC_M625A00010530025_S6801,,,F-114,no,Find the strinc in the document,
+MC_010004.pdf,,,42CrMoS4,yes,Symilar,
+MC_350A320014000001_S9750.pdf,,,S355JR,yes,Symilar,
+MC_332A313010000017_S9701.pdf,,,PA66,yes,Acurate,
+MC_332A32502302_S9702.pdf,,,1.0149,yes,Acurate,
+MC_42-38N_460620_________0015_,,,S235JR,yes,Acurate,
+MC_ V885-74692-000W6000-01A00-,,,42CrMoS4 (+QT),yes,Acurate,
+MC_ T00982574-11601P01,,,11601,no,Find the strinc in the document,
