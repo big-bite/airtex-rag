@@ -1,4 +1,4 @@
-Document name,codigo,Output,Code to search,Expected result. Is it in the list?,Expected result explanation,imagen/documento,Extracted Text,Final Output,Description Response,OK/KO
+Document name,codigo,Output,Code to search,Expected result. Is it in the list?,Expected result explanation,imagen/documento,Extracted Text
 MC_ T00982574-11601P01,,,11601,no,Find the strinc in the document,Doc,"IT-7.6.5.2 Rev01 INTERNAL 
 Page 1 of 1 
 
@@ -68,14 +68,7 @@ En caso de desviaciones o concesiones, las piezas / conjuntos serán entregados 
 correspondiente. 
 
 
-Firmado IZAN Fecha 22/06/2023 ",Accurate,"The item code "" 11601 "" was found in the document . It is associated with the following information :
-
-Code : T 009 825 74 - 116 01 -P 01
-Name : PUSH ING PIN AS SEMB LY ( 116 01 )
-Quantity : 16
-Relevant details : The document confirms that the pushing pins described are designed and /or produced according to the purchase order requirements from the client AR IT EX and conform to UNE 102 04 , type 2 . 1 standards . Documentation details like the certificate number and delivery note are also provided .
-
-[ Accurate ]",ok
+Firmado IZAN Fecha 22/06/2023 "
 MC_T000995752-20302P01.pdf,,,S690Q,yes,Symilar,Doc,"IT-7.6.5.2 Rev01 INTERNAL 
 Page 1 of 1 
 
@@ -737,21 +730,7 @@ Udarno delo / Kerbschlagarbeit / Impact strength Expressed as indicated in the D
 Varivost CEV / Schwei ßeignung CEV / Weldability CEV 
 Trajnost / Dauerhaftigkeit / Durability 
 
-Regulirana snov: Ni preverjeno. / Regulierter Stoff: Keine Leistung festgestellt./ Regulated Substance: No performance determ ined",Similar,"The material code ""S690Q"" was not found in the document. However, a similar material code ""S690QL"" and ""S690QL1"" were found. The differences between ""S690Q"" and these similar codes are typically in their impact test requirements and specific applications:
-
-1. **S690QL**: This grade is a high-strength structural steel with a minimum yield strength of 690 MPa. It is quenched and tempered to achieve its mechanical properties and is designed for structural applications that require high strength combined with good impact toughness at low temperatures.
-
-2. **S690QL1**: Similar to S690QL, this grade also has a minimum yield strength of 690 MPa but has different impact testing temperatures. S690QL1 is specifically tested for toughness at even lower temperatures, typically down to -60°C, compared to S690QL which is tested at -40°C.
-
-3. **Impact Testing**: S690QL typically requires a Charpy V-notch impact test at -40°C, whereas S690QL1 requires the impact test at -60°C. The test ensures the material's toughness in cold environments, and it’s critical for applications in colder climates.
-
-4. **Quenched and Tempered**: Both S690QL and S690QL1 are supplied in a quenched and tempered condition which gives them their enhanced strength and toughness.
-
-Relevant excerpt from the document:
-- ""Nuance - Grade - Werkstoff S690QL1 Selon norme - According to - Entsprechend EN 10025-6:2019""
-- ""Produit laminé à chaud en acier de construction Usages prévus: Construction de bâtiments et Génie civil S690QL1""
-
-[Similar]",ok
+Regulirana snov: Ni preverjeno. / Regulierter Stoff: Keine Leistung festgestellt./ Regulated Substance: No performance determ ined"
 MC_T000995752-70008P01,,,Plate 316,no,Find the strinc in the document,Imagen,"ARITER
 
 Engineering since 1961
@@ -878,14 +857,7 @@ iJ
 Ch St} rT) al CTE: i '} { "" t \ a va
 , 7 -
 
-MC - T000982574-11003P01 'r000982574- 11003P011] pdf / Page2",Accurate,"The item code ""Plate 316"" was found in the document. It is referred to as “PLATE 316/316L” in the document. Here are the key points of importance related to this item:
-
-1. **Material Specification**: Plate 316 is described in the context of ASTM A240/A240M-2015 and ASME SA-240/SA-240M-2015 standards, ensuring compliance with recognized material standards.
-2. **Material Composition**: The document provides a detailed chemical analysis of the plate, listing percentages of elements like Carbon (C), Manganese (Mn), Silicon (Si), Sulfur (S), Phosphorus (P), Chromium (Cr), Nickel (Ni), Molybdenum (Mo), and Nitrogen (N).
-3. **Mechanical Properties**: Detailed test results for mechanical properties such as impact strength, yield strength, tensile strength, elongation, and hardness are included, with specific values for each property.
-4. **Compliance and Certification**: The document certifies that Plate 316 conforms to quality standards such as ISO 9001:2015, ISO 14001:2015, ASTM A262 E, and NACE MR 0175/ISO15156-1/-3, indicating high manufacturing and testing standards.
-
-[Accurate]",ok
+MC - T000982574-11003P01 'r000982574- 11003P011] pdf / Page2"
 MC_TLAP01F46C551723000-0019.pdf,,,PA-66,yes,Symilar,Doc,"IT-7.6.5.2 Rev01 INTERNAL 
 Page 1 of 1 
 
@@ -972,28 +944,7 @@ a continuo
 8 115 
 
 NUESTROS CERTIFICADOS DE CALIDAD SE HACEN CON LA NORMA DIN. ESTE MATERIAL PUEDE SER 
-DENOMIDADO CON NORMAS COMERCIALES COMO ERTALON, NYLON ETC",Similar,"The item code ""PA-66"" was not found in the document. However, a similar item code ""PA-6"" was found. The difference between ""PA-66"" and ""PA-6"" lies in their chemical structure and properties:
-
-1. **Chemical Composition**:
-- PA-6 (also known as Nylon 6) is a polymer made from a single type of monomer.
-- PA-66 (Nylon 66) is a polymer made using two different monomers. 
-
-2. **Mechanical Properties**:
-- PA-6 generally has a lower melting point (220°C as found in the document) compared to PA-66, which usually melts at 255°C.
-
-3. **Applications**:
-- PA-6 is suitable for applications requiring a balance of strength and flexibility.
-- PA-66 is preferred for conditions requiring higher mechanical strength and stability at higher temperatures.
-
-4. **Density and Performance**:
-- PA-6 typically has a density of 1.15 g/cm³ and differing tensile strengths and hardness.
-- PA-66 typically features slightly higher density and enhanced performance characteristics.
-
-Here is the relevant subtype excerpt from the document:
-
-- **PA-6 G**: This appears in the mechanical properties list for PA-6.
-
-[Similar]",ok
+DENOMIDADO CON NORMAS COMERCIALES COMO ERTALON, NYLON ETC"
 MC_TO55014Z00-F46C551_030012.pdf,,,42CrMoS4,yes,Acurate,imagen,"ARITER
 
 Engineering since 1961
@@ -1128,31 +1079,7 @@ seep neatee
 pena b arene pe eee hae ee a
 
 wow. Luv. Com
-1D 9094004681",Similar,"The material code ""42CrMoS4"" was not found in the document. However, a similar material code ""42CrMo4"" was identified. 
-
-The difference between ""42CrMoS4"" and ""42CrMo4"" lies in:
-
-1. **Sulfur Content**:
-- 42CrMoS4: Contains sulfur for improved machinability.
-- 42CrMo4: Sulfur content is typically low or absent.
-
-2. **Application**:
-- 42CrMoS4: Utilized in applications where higher machinability is required.
-- 42CrMo4: Used in general applications involving high strength and toughness without the need for sulfur-enhanced machinability.
-
-3. **Chemical Composition**:
-- Both materials have similar base compositions of chromium (Cr) and molybdenum (Mo), but 42CrMo4 does not include sulfur (S) as a contributing element.
-
-4. **Mechanical Properties**:
-- Comparable mechanical properties focused on high strength, hardenability, and toughness, with minor variations due to sulfur content in 42CrMoS4 enhancing its machinability.
-
-Here is the relevant excerpt from the document:
-
-""PRODUCTO SOLICITADO / REQUIRED PRODUCT
-
-CALIDAD / GRADE F-1252 42CRMO4 COLADA/ HEAT 220611932""
-
-[Similar]",ok
+1D 9094004681"
 MC_TO55015Z00-F46C551_010301,,,AW-6082T6,yes,Symilar,Imagen,"ARITER
 
 Engineering since 1961
@@ -1203,16 +1130,12 @@ ci 3 Sie. &
 
 
 
-Comeplastic Portal de Bergara, 30 - Telf. 945 252 233 Fax 945 258239 - 01013 Vitoria-Gasteiz - e-mail: comercial@comepiastic.com",Not Found,"The item code "" AW - 6082T6 "" was not found in the document . Additionally , there weren ’t any similar or related codes or explanations about materials or specifications that appear in the document .
-
-The document primarily includes order and certification information for a different set of items , including details like order number , part number , supplier information , and certification details about "" PI E ZA PIN LOC ATOR - 1 T 000 982 574 - 132 01 P 01 "" with no mention of the specified code "" AW - 608 2 T 6 "".
-
-[ Not Found ]",ko
+Comeplastic Portal de Bergara, 30 - Telf. 945 252 233 Fax 945 258239 - 01013 Vitoria-Gasteiz - e-mail: comercial@comepiastic.com"
 MC_U632A00000500001_S9702,,"S355JR - Found in the list of materials. 
 S275JR - Found in the list of materials. 
 S235JR - Found in the list of materials. 
 1.0038 - Found in the list of other denominations of materials equivalents. 
-1.0045 - Found in the list of other denominations of materials equivalents.",S355JR,yes,Symilar,imagen,,nan,nan,ko
+1.0045 - Found in the list of other denominations of materials equivalents.",S355JR,yes,Symilar,imagen,
 MC_U632A00000500005_S9702,,"S355JR[1] 
 S275JR",S355JR,yes,Symilar,imagen,"ARITER
 
@@ -1389,16 +1312,7 @@ B* industrial Prada Mativa Ted APSE TGRT | cana tudsdsarandaistubosacarida.coit
 
 
 
-MC T000982574-121XXP01 [OF4065_PED1459-2023A HIERROS DEL MEDITERRANEO].paf / Page 2",Similar,"The material code ""S355JR"" was not found in the document. However, a reference to ""EN 10219-9:2006"" along with hollow sections of steel formed in the cold state for construction of buildings and engineering structures is noted, which may be of related interest depending on your specific requirement within structural steel applications. 
-
-Key points of relevance:
-
-1. Specification: EN 10219-9:2006 relates to cold-formed hollow sections.
-2. Application: Primarily used for construction of buildings and other engineering structures.
-3. Quality Declaration: Availability of performance declarations can be found on the supplier’s website.
-4. Certification: Mentions of certification and CE marking related to the products.
-
-[Similar]",not sure
+MC T000982574-121XXP01 [OF4065_PED1459-2023A HIERROS DEL MEDITERRANEO].paf / Page 2"
 MC_U632A00000500998_S9702,,"1.1191 - Found in the list of materials. 
 1.7225 - Found in the list of materials. 
 1.7227 - Found in the list of materials. 
@@ -1756,9 +1670,7 @@ OA O00°8e
 
 
 
-Es copia exacta del certificado de nuestro proveedor - Este certificado es valido para las dimensiones y kilos/metros indicad",Not Found,"The item code ""n/A"" was not found in the document. 
-
-[Not Found]",ok
+Es copia exacta del certificado de nuestro proveedor - Este certificado es valido para las dimensiones y kilos/metros indicad"
 MC_U632A00000500099_S9702,,"C45E - Found in the list of materials. 
 1.1191 - Found in both the list of materials and the list of other denominations of materials equivalents. 
 F-114 - Found in both the list of materials and the list of other denominations of materials equivalents. 
@@ -1922,17 +1834,7 @@ i ee ' , Gl Lae p} +} j ie X ;
 
 
 f
-f",Similar,"The material code ""S355JR"" was not found in the document. However, a similar material code ""S355J2+AR"" was found. The difference between ""S355JR"" and ""S355J2+AR"" lies in their impact test temperature and specific applications:
-
-1. **Yield Strength**: Both grades have a minimum yield strength of 355 MPa.
-2. **Applications**: S355JR is suitable for general structural applications, while S355J2+AR is used for more demanding conditions.
-3. **Impact Test Temperature**: S355JR requires a Charpy V-notch impact test at room temperature (20°C), whereas S355J2+AR requires this test at a lower temperature (-20°C).
-4. **Normalizing**: The ""+AR"" indicates that the material is in the 'as-rolled' condition.
-
-Relevant excerpt from the document:
-""QUALITA'/STEEL GRADE: S355J2+AR""
-
-[Similar]",ok
+f"
 MC_V885-74692-000W6000-01A00-20301P01,,"1.7225 - Found in the list of materials[1]. 
 1.7227 - Found in the list of materials[2]. 
 1.1191 - Found in the list of materials[3]. 
@@ -1974,9 +1876,7 @@ SABAINOX MONTAJES S.L.U
 C-PE23/05542
 05/07/2024
 V885-74692-000W6000-01A00-20301P01
-1",Not Found,"The item code ""AW5083"" was not found in the document. Moreover, there is no similar code related to ""AW5083"" within the document.
-
-[Not Found]",ok
+1"
 MC_V885-74692-000W6000-01A00-20801P01,,EN AW-5083,AW5083,yes,Acurate,imagen,"ARITER
 
 Engineering since 1961
@@ -2131,15 +2031,7 @@ AADSATUS JASMAOAWOD = GACIJAOD.9450.9234 UOIDNDUGOARG OGASOAGA = ASM MOIDADIFIAS
 
 is19 Isdéal is19 Isdsel sansuO ished
 
-, f - f",Similar,"""The material code AW5083 was not found in the document. However, a similar item code was found, which may be relevant based on the context provided.""
-
-Key Points related to similar codes:
-1. **General Context**: The document references various codes and technical specifications related to engineering and material properties.
-2. **Material Properties**: Similar codes found are associated with structural and material properties like tensile strength (Rp 0,2, Rm) and hardness (HB).
-3. **Supplier and Documentation Requirements**: Relevant codes and numbers are tied to supplier documentation and engineering standards specific to orders and material requirements.
-4. **General Use**: Given the mention of diverse material specifications, the document appears to pertain to the technical details and requisites of materials used in industrial applications.
-
-[Similar]",not sure
+, f - f"
 MC_V885-74692-01A00-41400A01.pdf,,"Material: S355JR 
 
 List: Materials, Materials Interchangeables 
@@ -2305,14 +2197,7 @@ c
 M
 
 
-rik th ke a a hace",Similar,"The material code ""42CrMoS4 (+QT)"" was not found in the document. However, a similar material code ""A2CrMoS4 (+QT)"" is present. Here is the refined information related to it:
-
-1. A2CrMoS4 (+QT) is specified in a certificate for a ""LOCATION BALL"".
-2. This certificate adheres to UNE 10204, type 2.1 standards.
-3. The document mentions the part and certifications related to aerospace industry supplier Microlan Aerospace, S.L.
-4. Quality assurance and conformity are in line with specific purchase order requirements.
-
-[Similar]",ko
+rik th ke a a hace"
 MC_T000995752-20302P01.pdf,,"S690QL - This belongs to the list of materials. 
 1.8928 - This belongs to the list of other denominations of materials equivalents.",S690Q,yes,Symilar,,"IT-7.6.5.2 Rev01 INTERNAL 
 Page 1 of 1 
@@ -2975,24 +2860,8 @@ Udarno delo / Kerbschlagarbeit / Impact strength Expressed as indicated in the D
 Varivost CEV / Schwei ßeignung CEV / Weldability CEV 
 Trajnost / Dauerhaftigkeit / Durability 
 
-Regulirana snov: Ni preverjeno. / Regulierter Stoff: Keine Leistung festgestellt./ Regulated Substance: No performance determ ined",Similar,"The material code ""S690Q"" was not found in the document. However, a similar material code ""S690QL"" and ""S690QL1"" were found. The differences between ""S690Q"" and these similar codes are typically in their impact test requirements and specific applications:
-
-1. **S690QL**: This grade is a high-strength structural steel with a minimum yield strength of 690 MPa. It is quenched and tempered to achieve its mechanical properties and is designed for structural applications that require high strength combined with good impact toughness at low temperatures.
-
-2. **S690QL1**: Similar to S690QL, this grade also has a minimum yield strength of 690 MPa but has different impact testing temperatures. S690QL1 is specifically tested for toughness at even lower temperatures, typically down to -60°C, compared to S690QL which is tested at -40°C.
-
-3. **Impact Testing**: S690QL typically requires a Charpy V-notch impact test at -40°C, whereas S690QL1 requires the impact test at -60°C. The test ensures the material's toughness in cold environments, and it’s critical for applications in colder climates.
-
-4. **Quenched and Tempered**: Both S690QL and S690QL1 are supplied in a quenched and tempered condition which gives them their enhanced strength and toughness.
-
-Relevant excerpt from the document:
-- ""Nuance - Grade - Werkstoff S690QL1 Selon norme - According to - Entsprechend EN 10025-6:2019""
-- ""Produit laminé à chaud en acier de construction Usages prévus: Construction de bâtiments et Génie civil S690QL1""
-
-[Similar]",ok
-MC_T000991555-00119P01,,,10046105,no,Find the strinc in the document,doc,,Not Found,"The item code ""10046105"" was not found in the document. 
-
-[Not Found]",ko
+Regulirana snov: Ni preverjeno. / Regulierter Stoff: Keine Leistung festgestellt./ Regulated Substance: No performance determ ined"
+MC_T000991555-00119P01,,,10046105,no,Find the strinc in the document,imagen,
 MC_T000989527-41304P01,,Steel grade STRENX 700MLH - This material is not listed in any of the provided lists.,"Steel STRENX700MLH,",no,Find the strinc in the document,imagen,"ARITER
 
 Engineering since 1961
@@ -3193,15 +3062,7 @@ www.strenx.com
 
 
 
-PROVCollector1",Accurate,"The material code ""Steel STRENX700MLH"" was found in the document. Here are the key points about this material:
-
-1. **Grade**: The document confirms the presence of the steel grade STRENX 700MLH.
-2. **Application**: It is categorized under structural hollow sections.
-3. **Standards**: The material adheres to specific standard rules as mentioned.
-4. **Chemical Composition**: The document provides a detailed breakdown of the chemical composition, including elements like C, Mn, Ni, Ti, Al, Nb, Cr, and Cu.
-5. **Mechanical Properties**: The tensile test results include key mechanical properties such as yield strength (Rp0.2), tensile strength (Rm), and elongation (AS%).
-
-[Accurate]",ok
+PROVCollector1"
 MC_T000989527-21506P01,,,1.0149,yes,Acurate,doc,"IT-7.6.5.2 Rev01 INTERNAL 
 Page 1 of 1 
 
@@ -3279,17 +3140,7 @@ Certificado Nº
 171473
 Pedido Nº-OF/Pos.
 00PP609401/00011Certificado de Inspección
-EN 10 204, 3.1",Similar,"The item code ""1.0149"" was not found in the document. However, a related standard ""DIN EN 10149-2 - 10.2019"" was identified. The connection is in the context of steel grades and standards. Here are the refined points of importance:
-
-1. **Standard Context**: DIN EN 10149-2 pertains to high-strength low-alloy steels, which are relevant when discussing performance grades such as ""PERFORM 700 / S700MC"".
-2. **Material Type**: The document refers to a specific type of steel suitable for hot rolling applications which may relate closely to the mechanical properties expected in the ""S700MC"" grade.
-3. **Chemical Composition**: Listed percentages of elements like carbon, silicon, manganese, phosphorus, sulfur, aluminum, etc., align with the categorization typically found in standards related to DIN EN 10149.
-4. **Mechanical Properties**: The document lists mechanical properties such as yield strength (Rp0,2%), tensile strength (Rm), and impact values which are critical for adhering to DIN EN 10149-2 specifications.
-5. **Application**: The named material ""PERFORM 700"" fits high-strength applications similar to those covered under DIN EN 10149-2.
-
-For precise applications or exact compliance, reference to the detailed DIN EN 10149-2 standards would be required.
-
-[Similar]",ok
+EN 10 204, 3.1"
 MC_T000982574-99999P01,,,S690Q,yes,Symilar,doc,"IT-7.6.5.2 Rev01 INTERNAL 
 Page 1 of 1 
 
@@ -3700,24 +3551,7 @@ which guarantees the compliance with limit values
 given in the Radiation Protection Ordinance(StrlSchV)
 for the unrestricted clearance of solid material
 (StrlSchV Annex III, Section 5) for ferrous nuclides.
-EPD acc. to EN 15804 + A2 & ISO 14025",Similar,"The material code ""S690Q"" was not found in the document. However, a similar material code ""S690QL"" was found. The key differences and important information related to ""S690QL"" include:
-
-1. **Standards and Specifications**: ""S690QL"" is governed by the standards DIN EN 10025-6 10/19, DIN EN 10029 B 02/11, and DIN EN 10163-2 Kl. B UG3 03/05.
-2. **Mechanical Properties**: This grade is known for its high yield strength of about 690 MPa, and it is commonly used in applications requiring superior strength and toughness.
-3. **Heat Treatment**: ""S690QL"" undergoes quenching and tempering processes which enhance its strength and toughness.
-4. **Application Areas**: Due to its high strength, it is typically used in construction, load-bearing structures, and heavy machinery.
-
-Here is the relevant excerpt from the document:
-
-```
-Steel grade and terms of delivery
-(B02−B03)S690QL
-DIN EN 10025−6 10/19
-DIN EN 10029 B 02/11
-DIN EN 10163−2 Kl. B UG3 03/05
-```
-
-[Similar]",ok
+EPD acc. to EN 15804 + A2 & ISO 14025"
 MC_T000982574-50001P01.pdf,,,EN AW-5083,yes,Acurate,imagen,"ARITER
 
 Engineering since 1961
@@ -3800,15 +3634,7 @@ Km 2,5
 
 
 
-28864 AiaKir- MADRT-",Accurate,"The material code ""EN AW-5083"" was found in the document. Here are the relevant details:
-
-- The document mentions ""EN AW 5083"" under the designation for a type of aluminum.
-- It describes the material as ""ALUMINIO AW5083 RECTIFICADO PLATE 6 MM 355x355"".
-- A quantity of 2,000 units of this plate is listed.
-- This is included in an inspection certificate according to EN 10204 2.1 standards.
-- The designation matches exactly with the queried item code, confirming its presence.
-
-[Accurate]",ok
+28864 AiaKir- MADRT-"
 MC_T000982574-33003P01.pdf,,,53-4506-674962,no,Find the strinc in the document,imagen,"ARITER
 
 Engineering since 1961
@@ -3900,15 +3726,7 @@ Material Testing/ H Leu / M Modig Eriksson / V
 
 
 
-PROV 33.01-04",Accurate,"The item code ""53-4506-674962"" was found in the document. Here is the refined information regarding it:
-
-1. **Heat Number:** The document lists ""53-4506-674962"" in multiple instances, in combination with additional suffixes such as ""-02"", ""-03"", and ""-04"". These denote specific heat numbers related to material batches.
-2. **Material Specification:** This code is associated with Hot rolled sheets of steel grade STRENX 700 MC E.
-3. **Chemical Composition:** The document provides detailed chemical composition, including elements like Carbon (C), Silicon (Si), Manganese (Mn), Phosphorus (P), Sulfur (S), Chromium (Cr), Nickel (Ni), and others.
-4. **Mechanical Properties:** The document details test results, including tensile strength, yield strength, and elongation percentages.
-5. **Quality Assurance:** The document indicates that the material has passed various tests including tensile and bend tests, and meets the specified standards.
-
-[Accurate]",ok
+PROV 33.01-04"
 MC_T000982574-31023P01.pdf,,,EN 13501-1,no,Find the strinc in the document,doc,"IT-7.6.5.2 Rev01 INTERNAL 
 Page 1 of 1 
 
@@ -4054,14 +3872,7 @@ Country Standard Rating Thickness Colour
 Europe DIN EN ISO 23125 A2 – C2 4 – 12 mm GP clear 099 
 DIN EN 12417 87 – 150 m/s 4 – 12 mm GP clear 099 
 DIN356 P5A ≥4mm  GPclear099Exolon Group S-Line, the standard product line, represents a range of certified quality products which offer the 
-reliable solution for most applications.",Accurate,"The item code ""EN 13501-1"" was found in the document. Here are the important points related to it:
-
-1. **Fire Rating Certification**: ""EN 13501-1"" is a European standard for fire classification of construction products and building elements.
-2. **Specific Applications**: It applies to Exolon® GP polycarbonate sheets in various thicknesses and colors.
-3. **Fire Behavior**: The fire rating according to this standard is critical as it determines how materials react to fire, including aspects like smoke production and flaming droplets.
-4. **Thickness Relevance**: The document specifies ratings like B s1 d0 for 1 – 3 mm GP white 150 and 1 – 6 mm GP clear 099, indicating different fire resistance properties for different thicknesses.
-
-[Accurate]",ok
+reliable solution for most applications."
 MC_T000982574-30033P01.pdf,,,CuSn12C,yes,Acurate,doc,"IT-7.6.5.2 Rev01 INTERNAL 
 Page 1 of 1 
 
@@ -4133,17 +3944,7 @@ Dureza (HB) 80 a 110
 
 
 
-Departamento de Calidad",Accurate,"The material code ""CuSn12C"" was found in the document. Here is the refined information related to it:
-
-1. **Material Type**: CuSn12C is a type of bronze alloy.
-2. **Chemical Composition**: It mainly consists of copper (Cu) and tin (Sn). The tin content ranges between 11% to 13%.
-3. **Mechanical Characteristics**: 
-- Tensile Strength: Between 20 to 30 Kgs./mm².
-- Elongation: Between 3% to 5%.
-- Hardness: Ranges from 80 to 110 HB.
-4. **Product Description**: Provided as a product with a diameter of 61 mm.
-
-[Accurate]",ok
+Departamento de Calidad"
 MC_T000982574-14717P01.pdf,,,"S355J2, SR275",no,Acurate,imagen,"ARITER
 
 Engineering since 1961
@@ -4398,51 +4199,7 @@ DISTRIBUCION DE ACERO-TRANSF OFA OO Oe CARL KBD LOCUS See] ROT dT Bat BagedCINA 
 
 
 
-eRe,",Similar,"### Analysis of the Item Codes
-
-**Item Code: ""S355J2""**
-
-- **Similarity Found**: The document contains the code ""S355 J2+N"".
-- **Comparison**:
-- Both ""S355J2"" and ""S355 J2+N"" belong to the same category of steel grades.
-- They both have a minimum yield strength of 355 MPa.
-- The ""N"" in ""S355 J2+N"" denotes that this steel is normalized (heat-treated to normalize grain structure).
-- Both grades are used for structural applications but may have different heat treatment processes.
-
-**Relevant Excerpts from the Document**:
-- T000982574-14009P01 CHAPA NEGRA S355 J2+N DE 5.00 MM
-- T000982574-14013P01 CHAPA NEGRA S355 J2+N DE 5.00 MM
-- T000982574-14017P01 CHAPA NEGRA S355 J2+N DE 5.00 MM
-- T000982574-14717P01 CHAPA NEGRA S355 J2+N DE 3.00 MM
-
-**Points of Importance**:
-1. Both grades are used for structural applications.
-2. The ""N"" denotes the normalization heat treatment for improved grain structure.
-3. The yield strength is the same for both grades (355 MPa).
-4. Both are suitable for construction and engineering uses.
-
-[Accurate]
-
-**Item Code: ""SR275""**
-
-- **Similarity Found**: The document contains the code ""S275 JR"".
-- **Comparison**:
-- ""SR275"" could be a variant or typo of ""S275 JR"", but here it's compared as ""S275 JR"".
-- Both grades fall into the category of non-alloy structural steels.
-- ""S275 JR"" has a minimum yield strength of 275 MPa.
-- The ""JR"" indicates impact resistance at about 20°C, whereas ""SR275"" is not a standard designation.
-
-**Relevant Excerpts from the Document**:
-- T000982574-14006P01 CHAPA NEGRA S275 JR DE 8.00 MM
-- T000982574-14017P01 CHAPA NEGRA S275 JR DE 8.00 MM
-
-**Points of Importance**:
-1. They are non-alloy structural steels.
-2. Used in various structural engineering and construction applications.
-3. The ""JR"" grade implies impact resistance properties.
-4. Both have similar mechanical properties and applications.
-
-[Similar]",ok
+eRe,"
 MC_T000982574-14703P01.pdf,,,S690QL,yes,Acurate,imagen,"ARITER
 
 Engineering since 1961
@@ -4786,27 +4543,7 @@ D-38871 Ilsenburg
 
 (A01} Cyron
 
-This certificate was prepared by a suitable data processing system and is valid without signature according to EN 10 204, section 5.",Similar,"The item code ""S690QL"" was not found verbatim in the document. However, a closely related code ""S690QOL"" was identified. The difference between ""S690QL"" and ""S690QOL"" lies in their specific applications and characteristics.
-
-Here are important points related to ""S690QOL"":
-
-1. **Standard Compliance**: The steel grade ""S690QOL"" complies with DIN EN 10025-6 standards, indicating it meets European structural steel requirements.
-
-2. **Delivery Terms**: Specifications include the DIN EN 10029 and DIN EN 10163-2 standards for delivery conditions, particularly focusing on heavy plates.
-
-3. **Applications**: ""S690QOL"" is particularly noted for heavy plate applications and is used where high yield strength is required.
-
-4. **Manufacturing Process**: Produced via the basic oxygen process, ensuring high quality and consistency in the material properties.
-
-Here is the relevant excerpt from the document:
-```
-Product Heavy plate Works order No, 0000106500
-Steel grade and terms of delivery S690QOL (A05)
-DIN EN 10025-6 10/19
-DIN EN 10029 B 02/11
-DIN EN 10163-2 Kl. B UG3 03/05
-```
-[Similar]",not sure
+This certificate was prepared by a suitable data processing system and is valid without signature according to EN 10 204, section 5."
 MC_T000982574-14019P01.pdf,,,34CRNIMO05,no,Find the strinc in the document,imagen,"ARITER
 
 Engineering since 1961
@@ -5005,15 +4742,7 @@ Shtema de
 
 
 {WRU YO PTL
-ID DOG1004 em",Similar,"The item code ""34CRNIMO05"" was not found in the document. However, a similar material code ""34CRNIMOG"" was found. Here is the refined information regarding 34CRNIMOG:
-
-1. Category: This material is within the same family of alloy steels.
-2. Composition: It contains elements such as Carbon (C), Manganese (Mn), Silicon (Si), Phosphorus (P), Sulfur (S), Chromium (Cr), Molybdenum (Mo), Nickel (Ni), Cobalt (Co), Aluminum (Al), Vanadium (V), Titanium (Ti), Tin (Sn), and Nitrogen (N).
-3. Mechanical Properties: It includes specific parameters such as tensile strength (RM), yield strength (RE), elongation (A), reduction of area (Z), and hardness (HB).
-4. Heat Treatment: The material undergoes specific heat treatments for the specimen to ensure the desired mechanical properties.
-5. Resilience: Its impact resilience is measured at different temperatures with specific energy values in joules for both 20°C and -40°C samples.
-
-[Similar]",ok
+ID DOG1004 em"
 MC_T000982574-14011P01.pdf,,,S355,yes,Symilar,imagen,"ARITER
 
 Engineering since 1961
@@ -5214,17 +4943,7 @@ A. Heredia
 
 Palmones, 18 Enero
 
-rhTaa7s",Similar,"The material code ""S355"" was not found explicitly in the document. However, several details related to inspection certificates and material specifications were mentioned. The document contains information about intergranular corrosion grades, chemical compositions, and specific material testing processes such as:
-
-1. Intergranular corrosion grade specification as per ASTM standards 
-2. Chemical composition including elements like Carbon, Nickel, Chromium, and Molybdenum
-3. Dimensional measurements for materials including thickness, width, and length
-4. Mechanical properties and test requirements for materials such as tensile strength and elongation
-5. Compliance with various standards like NACE and ISO
-
-These details are related to material specifications and testing requirements, similar to those frequently associated with materials like ""S355.""
-
-[Similar]",not sure
+rhTaa7s"
 MC_T000982574-13303P01.pdf,,,42CrMo4,yes,Acurate,imagen,"ARITER
 
 Engineering since 1961
@@ -5311,15 +5030,7 @@ O60 2310503413 REDONDO F1252 (42CRMO4) TRATADO 200,0 797,000 583,000 19,000 61,0
 
 OBSERVACIONES: Los datos reflejados en el presente certificado se han tomado
 del certificado de calidad, tipo 3.1 segun norma UNE-EN 10204:2006, emitido
-por el fabricante / proveedor.",Accurate,"The item code ""42CrMo4"" was found in the document. Here are the key points related to it:
-
-1. **Material Specification**: 42CrMo4 is listed as a treated (TRATADO) grade.
-2. **Chemical Composition**: Contains 0.44% Carbon, 0.83% Silicon, 0.32% Phosphorus, 0.020% Sulfur, 0.026% Chromium, 1.02% Molybdenum, and minor amounts of other elements.
-3. **Mechanical Properties**: Includes yield strength (Rm) of 797,000 MPa, tensile strength (Rp) of 583,000 MPa, and elongation (A) of 19%.
-4. **Category and Form**: It is categorized as REDONDO (a round form) F1252.
-5. **Quantity Information**: Various instances ranging from 35 to 200 units are listed with specific mechanical and chemical characteristics.
-
-[Accurate]",ok
+por el fabricante / proveedor."
 MC_T000982574-13211P01.pdf,,,53-4506-674962,no,Find the strinc in the document,imagen,"ARITER
 
 Engineering since 1961
@@ -5412,26 +5123,7 @@ Material Testing/ H Leu / M Modig Eriksson / V
 
 
 
-PROV 33.01-04",Similar,"The item code ""53-4506-674962"" was not found in the document. However, a similar item code ""53-4506-674962-02"", ""53-4506-674962-03"", and ""53-4506-674962-04"" was found. Here is the refined information related to these codes:
-
-1. **Product Details:**
-- The product related to these item codes is ""Hot rolled sheets"" under the ""Steel grade STRENX 700 MC E"".
-
-2. **Chemical Composition:**
-- Each item code has specific chemical compositions listed, including various elements like Carbon (C), Silicon (Si), Manganese (Mn), etc.
-- The formula for Carbon Equivalent (CEV) is provided, which shows how different elements affect weldability and hardness.
-
-3. **Test Results:**
-- The items underwent various tests such as tensile tests and bend tests.
-- These tests are documented for temperature, specimen position, and delivery condition.
-
-4. **Quality Certification:**
-- The document is an EN 10 204 - 3.1 Quality inspection, certifying that the material complies with the requirements of the order.
-
-5. **Inspection and Certification:**
-- The inspection was performed by SSAB EMEA AB, with specific purchase details and order numbers mentioned.
-
-[Similar]",ok
+PROV 33.01-04"
 MC_T000982574-13003P01.pdf,,,34CRNIMO05.,no,Find the strinc in the document,imagen,"ARITER
 
 Engineering since 1961
@@ -5573,39 +5265,7 @@ ISO 14001:2016
 
 
 See whereby, con
-= «(OD Whobe",Similar,"The item code ""34CRNIMO05"" was not found in the document. However, a similar material code ""34CRNIMOG"" was identified. The key characteristics and specifications of ""34CRNIMOG"" include:
-
-1. **Chemical Composition**:
-- Carbon (C): 0.340%
-- Manganese (Mn): 0.720%
-- Silicon (Si): 0.250%
-- Phosphorus (P): 0.011%
-- Sulfur (S): 0.030%
-- Chromium (Cr): 1.620%
-- Molybdenum (Mo): 0.200%
-- Nickel (Ni): 1.340%
-- Other elements include Cobalt (Co) and Aluminum (Al).
-
-2. **Mechanical Properties**:
-- Yield Strength: 911.00 N/mm²
-- Tensile Strength: 748.00 N/mm²
-- Elongation: 65%
-- Hardness: 122.90 HB
-- Impact Resilience at 20°C (KV): Data varies between 99-101 joules.
-
-3. **Heat Treatment Conditions**:
-- Specific conditions for the heat treatment of specimens are specified, affecting their mechanical properties.
-
-4. **Quality and Norm Compliance**:
-- The material complies with the normalization standards AFNOR NFA 04-106 S and JERNKONTORET.
-- It is certified to be free of radioactivity and undergoes non-destructive ultrasonic testing as per EN 10308.
-
-Here is the relevant excerpt from the document:
-
-""PRODUCTO SOLICITADO; REQUIRED PROM
-CALIDAD / GRADE 34CRNIMOG COLADA / HEAT 220612106""
-
-[Similar]",not sure
+= «(OD Whobe"
 MC_T000982574-12817P01.pdf,,,42CrMo4,yes,Acurate,imagen,"ARITER
 
 Engineering since 1961
@@ -5692,19 +5352,7 @@ O60 2310503413 REDONDO F1252 (42CRMO4) TRATADO 200,0 797,000 583,000 19,000 61,0
 
 OBSERVACIONES: Los datos reflejados en el presente certificado se han tomado
 del certificado de calidad, tipo 3.1 segun norma UNE-EN 10204:2006, emitido
-por el fabricante / proveedor.",Accurate,"The material code ""42CrMo4"" was found multiple times in the document. Here are relevant points about ""42CrMo4"":
-
-1. **Chemical Composition**: The document provides detailed chemical properties of 42CrMo4, including the percentages of elements like Carbon (C), Silicon (Si), Phosphorus (P), Sulfur (S), Chromium (Cr), Molybdenum (Mo), and others.
-
-2. **Mechanical Properties**: Information regarding its mechanical characteristics such as Tensile Strength (Rm), Yield Strength (Re), Elongation (A), and Hardness (HB) is also listed.
-
-3. **Heat Treatment**: The instances of ""42CrMo4"" in the document indicate that the material has been heat-treated.
-
-4. **Applications**: Based on the properties detailed in the document, 42CrMo4 is suitable for applications requiring high strength and good hardenability.
-
-These points should give a clear idea about the characteristics and applications of 42CrMo4 as mentioned in the document.
-
-[Accurate]",ok
+por el fabricante / proveedor."
 MC_T000982574-12706P01.pdf,,,S275JR,yes,Acurate,imagen,"ARITER
 
 Engineering since 1961
@@ -6403,15 +6051,7 @@ Poligono Industrial Fontsanta
 
 98970 Sant Joan Despi (Barcelona)
 Tel.: (34) 93 477 01 71 - 93 477 01 69
-Fax: (94) 93 373 15 00",Accurate,"The material code ""S275JR"" was found in the document. Here is the relevant refined information:
-
-1. **Report Reference**: The welding procedure and associated tests reference the code ""LM-P/T-AC-135-S275JR"".
-2. **Welding Procedure**: This includes welding test details and qualifications according to specific testing standards (EN 15614).
-3. **Weld Material**: Details about the material used, including its application in welding processes and specific test results.
-4. **Macrographic Test**: The macrographic test results for ""S275JR"" mentioned specific criteria and the sample examination.
-5. **Compliance**: It is confirmed that the test welds were prepared, welded, and tested in compliance with the specified standards.
-
-[Accurate]",ok
+Fax: (94) 93 373 15 00"
 MC_T000982574-12505P01.pdf,,,AW-7075T651,yes,Acurate,imagen,"ARITER
 
 Engineering since 1961
@@ -6539,21 +6179,7 @@ Pe) ee
 
 i iT a
 
-vucwooee cy a ie een ate oe ey ire 4 ].paf / Page2",Similar,"The material code ""AW-7075T651"" was not found in the document. However, a similar material code ""PLACA AW7075 T651"" was identified. Here are some important points known about this material based on context and category:
-
-1. **Material Code Format**: ""AW7075 T651"" indicates a high-strength aluminum alloy, typically used in aerospace and other stressed structural applications.
-
-2. **Properties**: Known for its excellent mechanical properties, it includes high strength, toughness, and resistance to stress corrosion cracking. 
-
-3. **Applications**: Commonly used in applications where a high strength-to-weight ratio is essential.
-
-4. **Thickness Specification**: The specific example in the document mentions an unspecified thickness for the material, indicating it could be customized based on specific requirements.
-
-Here is the relevant excerpt from the document for context:
-
-PLACA AWi075 T6S1 DE ESPESOR 15 MM
-
-[Similar]",ok
+vucwooee cy a ie een ate oe ey ire 4 ].paf / Page2"
 MC_T000982574-12502P01.pdf,,,S690Q,yes,Acurate,doc,"IT-7.6.5.2 Rev01 INTERNAL 
 Page 1 of 1 
 
@@ -7045,19 +6671,7 @@ Udarno delo / Kerbschlagarbeit / Impact strength Expressed as indicated in the D
 Varivost CEV / Schwei ßeignung CEV / Weldability CEV 
 Trajnost / Dauerhaftigkeit / Durability 
 
-Regulirana snov: Ni preverjeno. / Regulierter Stoff: Keine Leistung festgestellt./ Regulated Substance: No performance determ ined",Similar,"The item code ""S690Q"" was not found in the document. However, a similar material code ""S690QL"" is present. The difference between ""S690Q"" and ""S690QL"" lies in their specific applications and properties, especially in terms of their impact toughness requirements.
-
-Key points for S690QL:
-
-1. **High Yield Strength**: S690QL is a high-strength steel with a minimum yield strength of 690 MPa.
-2. **Quenched and Tempered**: It is supplied in a quenched and tempered condition, which gives it enhanced mechanical properties.
-3. **Impact Toughness**: S690QL is designed to have good impact toughness at lower temperatures.
-4. **Standards and Specifications**: It adheres to EN 10025-6 and has the steel designation 1.8928.
-
-Here is the relevant excerpt from the document: 
-""Hot Rolled Plate S690QL / 1.8928""
-
-[Similar]",ok
+Regulirana snov: Ni preverjeno. / Regulierter Stoff: Keine Leistung festgestellt./ Regulated Substance: No performance determ ined"
 MC_T000982574-11701P01,,,N/A,no,Not found,doc,"IT-7.6.5.2 Rev01 INTERNAL 
 Page 1 of 1 
 
@@ -7347,7 +6961,7 @@ TimeTemperature (°C)
 Temperature after cooling (°C)
 25262627282829
 Alleima Tube AB Reg No. 556234-6832 VAT No. SE556234683201
-SE-81181 SANDVIKEN SWEDEN www.alleima.com mtc_service@alleima.com",nan,nan,ok
+SE-81181 SANDVIKEN SWEDEN www.alleima.com mtc_service@alleima.com"
 MC_T000982574-11307P01.pdf,,,N/A,no,Not found,imagen,"ARITER
 
 Engineering since 1961
@@ -7431,7 +7045,7 @@ capa dureza
 
 85/86-15N
 
-AD/PLAN.O1 REV.0",nan,nan,ok
+AD/PLAN.O1 REV.0"
 MC_T000982574-11304P01.pdf,,,N/A,no,Not found,imagen,"ARITER
 
 Engineering since 1961
@@ -8115,7 +7729,7 @@ Vicenza, 01/06/2022 |Direzione Quatita Direzione Prodotto pa
 Qualitétsmanagement/Quality Management/Gestion Gualité Produktmanagement/Product Management/Direction Praduit
 
 VCQ008 - MEST049495 See | eek Reet hs
-R.BERTELLI en re P.MESSORI",nan,nan,ok
+R.BERTELLI en re P.MESSORI"
 MC_T000982574-11302P01.pdf,,,S355JR,yes,Symilar,DOc,"IT-7.6.5.2 Rev01 INTERNAL 
 Page 1 of 1 
 
@@ -8264,26 +7878,7 @@ by IGQ
 TÜV 
 manufacturer approved
 AD 2000 W0 -PED
-AMMM00001HV",Similar,"The material code ""S355JR"" was not found in the document. However, a similar material code ""S355J2H"" was found. The difference between ""S355JR"" and ""S355J2H"" lies in their impact test requirements and specific applications:
-
-1. **Impact Test Requirements**:
-- **S355JR**: Requires a Charpy V-notch impact test at room temperature (20°C) with a minimum energy of 27 Joules.
-- **S355J2H**: Requires a Charpy V-notch impact test at a lower temperature (-20°C) with a minimum energy of 27 Joules.
-
-2. **Application**:
-- **S355JR**: Suitable for general structural applications.
-- **S355J2H**: Used for hollow sections in structural applications.
-
-3. **Specifications**:
-- Both grades have a minimum yield strength of 355 MPa, but ""S355J2H"" is tailored for applications requiring higher toughness at lower temperatures. 
-
-4. **Standards**:
-- Both are covered under European standard EN 10210 for hot-finished structural hollow sections of non-alloy and fine grain steels.
-
-Here is the relevant excerpt from the document:
-""Steel grade S355J2H""
-
-[Similar]",ok
+AMMM00001HV"
 MC_T000982574-11105P01.pdf,,,EN AW-6082T6,yes,Acurate,imagen,"ARITER
 
 Engineering since 1961
@@ -8380,17 +7975,7 @@ oe
 . a
 deen at
 ae .* af
-4",Similar,"The material code ""EN AW-6082T6"" was not found in the document. However, a similar material code ""6082 T6"" was found. The similarity indicates they are likely referring to the same aluminum alloy but using different nomenclature standards.
-
-1. **Material Description**: 6082 T6 refers to an aluminum alloy in the 6000 series, usually recognized for its medium strength and excellent corrosion resistance.
-2. **Typical Applications**: It is widely used in structural applications, including bridges, cranes, and transport applications.
-3. **Mechanical Properties**: The T6 temper indicates that the material has been solution heat-treated and artificially aged, enhancing its strength.
-4. **Standards Compliance**: The document states that the material complies with current applicable regulations and standards, ensuring its quality and reliability.
-
-Here is the relevant excerpt from the document:
->MATERIAL : ALUMINI 6082 T6 @
-
-[Similar]",not sure
+4"
 MC_T000982574-11101P01.pdf,,,S355JR,yes,Symilar,Doc,"IT-7.6.5.2 Rev01 INTERNAL 
 Page 1 of 1 
 
@@ -8620,21 +8205,7 @@ Etch: NAOH
 Magnification: 400X 
 XApproved 
 Not Approved 
-Signature:",Similar,"The material code ""S355JR"" was not found in the document. However, a similar material code ""S32205"" was found. Both materials belong to the category of structural steels, but they have different compositions and applications.
-
-Key points about ""S32205"":
-
-1. It is a duplex stainless steel specified as UNS S32205.
-2. It has a higher chromium (23.00% max), nickel (6.50% max), and molybdenum (3.50% max) contents compared to typical structural steels.
-3. It is known for its good combination of strength and corrosion resistance.
-4. It is commonly used for applications requiring high mechanical properties and resistance to stress corrosion cracking.
-
-Here is the relevant excerpt from the document:
-
-- ""Chemical composition – 22.25% Cr, 5.67% Ni, 3.12% Mo.""
-- ""Mechanical properties – Min Rp 0.2 of 533 MPa, Rm between 480 and 840 MPa, A5 elongation min 25%.""
-
-[Similar]","not sure, ok"
+Signature:"
 MC_T000818312-90020P01.pdf,,,DC01,no,Find the strinc in the document,doc,"IT-7.6.5.2 Rev01 INTERNAL 
 Page 1 of 1 
 
@@ -8710,23 +8281,7 @@ VIGOR antes referidas.
 TRACCIÓN r n REVESTIMIENTO RUGOSIDAD EMB COMPOSICIÓN QUÍMICA %
 BOBINA HRB P S Re Rm A% Ra Otr.Med. C Si Mn P S Cr Ni Al Cu Nb Ti V
 (1) (2) N/mm2 2(3) (4) (4) (µm) (5) mm
-B07 C32 C01 C02 C11 C12 C13 C14 C15 C60 C60 C61 C62 C63 C71 C73 C72 C74 C75 C82 C81 C76 C83 C77 C78 C80",Similar,"The item code ""DC01"" was not found in the document. However, a similar item code ""DD11"" was identified. Both codes refer to specific grades of steel used for different applications and purposes:
-
-1. **DC01**:
-- This grade is commonly used for cold-rolled steel, primarily in sheet form.
-- It is known for its excellent weldability, formability, and smooth surface finish.
-- It is frequently used in automotive parts, appliances, and furniture due to its high-quality surface.
-
-2. **DD11**:
-- This grade is categorized as hot-rolled steel.
-- It has good weldability and is suitable for moderate forming processes.
-- It is often used in construction, mechanical engineering, and the production of formed parts.
-
-Here is the relevant excerpt from the document:
-
-Grade DD11 with an application in decapada, along with specific details on dimensions and quality certifications.
-
-[Similar]",not sure
+B07 C32 C01 C02 C11 C12 C13 C14 C15 C60 C60 C61 C62 C63 C71 C73 C72 C74 C75 C82 C81 C76 C83 C77 C78 C80"
 MC_MTGR02F46C553-AB-0014.pdf,,,F-114,no,Find the strinc in the document,image/scan,"ARITER
 
 Engineering since 1961
@@ -8817,16 +8372,8 @@ whose original is recorded in our Quality Department.
 
 
 
-TRANSCRIPCION DEL CERTIFICADO DEL FABRICANTE / TRANSCRIPTION OF SUPPLIER'S CERTIFICATE",Similar,"The material code ""F-114"" was not found in the document. However, a similar material code ""F-1140"" was found. Here are some refined points of importance regarding ""F-1140"":
-
-1. **Grade**: The material is identified as F-1140.
-2. **Specifications**: It is classified as C45E.
-3. **Heat Number**: The specific heat number for this material is §8773.
-4. **State**: The material is delivered without heat treatment.
-5. **Size**: The dimensions specified are 80x50 with a length of 3,000 mm and a total weight of 95 kg.
-
-[Similar]",ok
-MC_MTGR-01-D55280002-002-B (1).pdf,,,PA66,yes,Acurate,image/scan,,nan,nan,ko
+TRANSCRIPCION DEL CERTIFICADO DEL FABRICANTE / TRANSCRIPTION OF SUPPLIER'S CERTIFICATE"
+MC_MTGR-01-D55280002-002-B (1).pdf,,,PA66,yes,Acurate,image/scan,
 MC_M625A00010530025_S6801,,,F-114,no,Find the strinc in the document,doc,"IT-7.6.5.2 Rev01 INTERNAL 
 Page 1 of 1 
 
@@ -8864,17 +8411,7 @@ M625A00010530025_S6801
 
 PLANO:T000982574-14016W01
 PEDIDO: C-PE23/0 2544
-OF:200556",Not Found,"*The material code ""F-114"" was not found in the document. However, a similar item code ""F-114A"" was found.*
-
-Here is the refined information related to ""F-114A"":
-
-1. The document you provided is titled ""DOCUMENTATION DELIVERY.""
-2. It includes supplier, order number, date, part number, and quantity.
-3. The supplier is ""CONSTRUCCIONES MECANICAS DRANSA, S.L.""
-4. The specific part numbers mentioned include ""M625A00010530025_S6801.""
-5. The order and additional part-related codes are also listed.
-
-[Not Found]",ok
+OF:200556"
 MC_010004.pdf,,,42CrMoS4,yes,Symilar,doc,"IT-7.6.5.2 Rev01 INTERNAL 
 Page 1 of 1 
 
@@ -8961,22 +8498,7 @@ The content of this document is a transcription of the certificate issued by the
 MATERIAL LIBRE DE RADIOACTIVIDAD
 CONTROL ULTRASONIDOS / ULTRASONIC TEST
 CONTROL ANTIMEZCLAS / ANTIMIXING CONTROL
-whose original is recorded in our Quality Department.MATERIAL IS FREE OF RADIOACTIVITY",Similar,"The item code ""42CrMoS4"" was not found in the document. However, a similar material code ""16/20MnCr5"" was identified. Both fall under the category of alloy steels but differ in their specific compositions and properties:
-
-1. **Category**: Both ""42CrMoS4"" and ""16/20MnCr5"" are alloy steels used for high-stress components.
-2. **Chemical Composition**: ""42CrMoS4"" is typically composed of chromium, molybdenum, and sulfur, whereas ""16/20MnCr5"" contains manganese and chromium as its primary alloying elements.
-3. **Applications**: ""42CrMoS4"" is often used in applications requiring high tensile strength and toughness, such as gears and shafts. ""16/20MnCr5"" is generally used for components needing good wear resistance and high surface hardness, like gear components.
-4. **Treatment**: The document specifies properties like grain size, hardness, and mechanical properties relevant to ""16/20MnCr5,"" similar information would apply under different values for ""42CrMoS4.""
-
-Here is the relevant refined information from the document:
-
-- Material: 16/20MnCr5
-- Chemical Composition: Containing C, Mn, Si, Cr, Mo, and other elements.
-- Mechanical Properties: Includes elements like tensile strength (Rm) and yield strength (Re).
-- Hardness: Hardness levels specified over various grain sizes.
-- Testing: Non-destructive tests and Jominy tests are noted.
-
-[Similar]",ok
+whose original is recorded in our Quality Department.MATERIAL IS FREE OF RADIOACTIVITY"
 MC_350A320014000001_S9750.pdf,,,S355JR,yes,Symilar,image/scan,"ARITER
 
 Engineering since 1961
@@ -9077,19 +8599,8 @@ Certificamos que el material descrito en el presente documento ha sido fabricado
 obteniendo un resultado satisfactorio en concordancia con los requerimientos de la norma que
 
 le es de aplicacién.Comentarios Adicionales: Coated Solutions garantiza que todos los
-estructurales certificados bajo norma EN 10025 poseen en su origen marcado CE.",Similar,"The material code ""S355JR"" was not found in the document. However, a similar material code ""S355V2"" was identified.
-
-Key Points about S355V2:
-1. S355V2 is likely part of the S355 series of structural steels, similar to S355JR.
-2. The document indicates applications involving hot-rolled products, which is consistent with the typical use of S355 series steels.
-3. S355V2 materials were listed along with their specific dimensional and compositional tolerances.
-4. The materials mentioned are compliant with standards like EN 10025, which is also relevant to S355JR grade materials.
-
-Here is the relevant excerpt from the document:
-""S355V2 - KA03786""
-
-[Similar]",not sure
-MC_332A313010000017_S9701.pdf,,,PA66,yes,Acurate,imagen,,nan,nan,ok
+estructurales certificados bajo norma EN 10025 poseen en su origen marcado CE."
+MC_332A313010000017_S9701.pdf,,,PA66,yes,Acurate,imagen,
 MC_332A32502302_S9702.pdf,,,1.0149,yes,Acurate,imagen,"ARITER
 
 Engineering since 1961
@@ -9213,17 +8724,7 @@ CSO bend test
 
 QUALITY DEPARTMENT —
 SITE EXPERT FOR INSPECTION
-Witt",Similar,"The item code ""1.0149"" was not found in the document. However, a similar standard ""10149-2"" is mentioned. This standard contains specifications related to hot rolled unpickled coils:
-
-1. **Product Type**: 10149-2 is related to specific types of hot rolled unpickled steel coils.
-2. **Standard Reference**: It includes compliance with standard JEW 10149-2 dated 09-2013.
-3. **Delivery Conditions**: The document mentions relevant delivery standards such as EN 10051 (2010) associated with 10149-2.
-4. **Inspection and Certification**: Includes references to inspection certifications in compliance with these standards.
-
-Here is the relevant excerpt from the document:
-""PRODUCT: hot rolled unpickled coil GLBLITI:s700mMc-car A STANDARD-Jew 10149-2 (00-09-2013)""
-
-[Similar]",ok
+Witt"
 MC_42-38N_460620_________0015_,,,S235JR,yes,Acurate,imagen,"ARITER
 
 Engineering since 1961
@@ -9337,25 +8838,7 @@ ESTE DOCUMENTO CARECE DE VALIDEZ SINO FIGURAN EN EL,
 
 T OOO PES 2 Y- L000 LO 7 SELLO Y FIRMA ORIGINALES,
 
-THIS DOCUMENT [TACKS ORIGINAL VALIDITY IF THEY DO NO",Similar,"The material code ""S235JR"" was not found in the document. However, a related material code ""DCI ZN 10130"" is present. The difference between ""S235JR"" and ""DCI ZN 10130"" lies in their specific standards and applications:
-
-1. **S235JR**:
-- Relates to a non-alloy structural steel grade defined under EN 10025.
-- Known for its minimum yield strength of 235 MPa.
-- Commonly used in structural applications like bridges and buildings.
-
-2. **DCI ZN 10130**:
-- Defined under the standard EN 10130.
-- Pertains to cold-rolled low carbon steel used for forming processes.
-- Mainly utilized in the automotive industry and for manufacturing household appliances.
-
-Here is the relevant excerpt from the document:
-
-**Producto Babina Catidad Norma:**
-- Product: Coil
-- Steel Grade: DCI ZN 10130
-
-[Similar]",not sure
+THIS DOCUMENT [TACKS ORIGINAL VALIDITY IF THEY DO NO"
 MC_ V885-74692-000W6000-01A00-,,,42CrMoS4 (+QT),yes,Acurate,imagen,"ARITER
 
 Engineering since 1961
@@ -9468,14 +8951,7 @@ c
 M
 
 
-rik th ke a a hace",Accurate,"The item code ""42CrMoS4 (+QT)"" was not found in the document. However, a similar material code ""A2CrMoS4 (+QT)"" was found. Here is the pertinent information about ""A2CrMoS4 (+QT)"":
-
-1. **Category**: Both are Cr-Mo based alloy steels, which means they share characteristics typical of chromium-molybdenum steels.
-2. **Heat Treatment**: The ""+QT"" indicates that the material has undergone quenching and tempering, a common heat treatment to improve mechanical properties.
-3. **Usage**: These materials are often employed in applications requiring high strength, toughness, and resistance to wear and fatigue.
-4. **Document Snippet**: ""LOCATION BALL — A2CrMoS4 (+QT)"" indicates that the A2 variant is utilized in a part described as a ""location ball.""
-
-[Similar]",ko
+rik th ke a a hace"
 MC_ T00982574-11601P01,,,11601,no,Find the strinc in the document,imagen,"ARITER
 
 Engineering since 1961
@@ -9535,14 +9011,4 @@ PUSHING PIN ASSEMBLY )11602)
 En caso de desviaciones o concesiones, las piezas / conjuntos seran entregados con su documentacion
 correspondiente.
 
-ZAN 22/06/2023",Accurate,"The item code ""11601"" was found in the document. Here is the refined information:
-
-1. The item referred to as ""PUSHING PIN ASSEMBLY (11601)"" is specified in the document.
-2. The part number associated with this item is T00982574-11601P01.
-3. The supplier mentioned for this assembly is MICROLAN AEROSPACE, S.L.
-4. This item is part of the order number C-PE23/06035, assigned to the customer ARITEX.
-5. A certificate of conformity according to UNE 10204, type 2.1, is issued for this item.
-
-[Accurate]",ok
-MC_ V885-74692-000W6000-01A00-,imagen,,,42CrMoS4 (+QT),yes,Acurate,,,,
-MC_ T00982574-11601P01,imagen,,,11601,no,Find the strinc in the document,,,,
+ZAN 22/06/2023"

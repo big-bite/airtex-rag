@@ -8,7 +8,7 @@ st.set_page_config(page_title="Airtex Streamlit POC", page_icon="🎴", layout="
 client = OpenAI()
 
 st.title("🎴 Airtex Streamlit POC ")
-st.write("This is a simple example of some of the things you can do with Streamlit.")
+st.write("It is a tool to search for the item code in the document and provide the explaination related to it. ")
 st.write('---')
 df = pd.read_csv('aritex_task_updated.csv', header=0)
 
@@ -16,11 +16,12 @@ def gpt_response(history):
     response = client.chat.completions.create(
         model="gpt-4o",
         messages=history,
-        stream=True
+        # stream=True
     )
-    for chunk in response:
-        if chunk.choices[0].delta.content is not None:
-            yield chunk.choices[0].delta.content
+    # for chunk in response:
+    #     if chunk.choices[0].delta.content is not None:
+    #         yield chunk.choices[0].delta.content
+    return response.choices[0].message.content
 
 
 page_divide = st.columns(2, gap="medium")
@@ -38,23 +39,23 @@ with page_divide[0]:
     # pdf_files = [doc for doc in pdf_files if doc in docs.values]
 
     doc_selected = st.selectbox("Select from the following documents in the folder", pdf_files)
-    filter_df = df[df['Document name'].str.contains(doc_selected, regex=False)]
+    filter_df = df[df['Document name'].str.contains(doc_selected)]
     if filter_df.empty:
         st.error("No data found for the selected document")
         st.stop()
     code_value = filter_df['Code to search'].values[0]
-    is_doc = filter_df['imagen/documento'].str.lower().values[0] == 'doc'
+    # is_doc = filter_df['imagen/documento'].str.lower().values[0] == 'doc'
     
     
 
     code_input = st.text_input("Enter some code", code_value)
     if doc_selected:
-        selected_path = os.path.join(folder_path, doc_selected+'.pdf')
-        if is_doc:
-            pdf_text = get_pdf_text(selected_path)
-        else:
-            pdf_text = get_text_from_pdf_image(selected_path)
-        # pdf_text = filter_df['Extracted Text'].values[0]
+        # selected_path = os.path.join(folder_path, doc_selected+'.pdf')
+        # if is_doc:
+        #     pdf_text = get_pdf_text(selected_path)
+        # else:
+        #     pdf_text = get_text_from_pdf_image(selected_path)
+        pdf_text = filter_df['Extracted Text'].values[0]
 
         st.text_area("Extracted Text", pdf_text, height=240)
 
@@ -79,7 +80,7 @@ Steel grade S355J2H Z3
 </just an example>
 
 
-If you do not find the item code or any similar code, you need to provide a response saying that the code is not present in the document.
+If you do not find the item code or any similar code, you need to provide a response saying that the code is not present in the document. The code should also match some character then is declared as similar.
 
 Here is the document which you need to search for the item code:
 
@@ -88,8 +89,11 @@ Here is the document which you need to search for the item code:
 </Document Text>
 
 # Language: English
-# Format: At the last line of the resoponse, write the answer in square brackets. [Accurate] or [Similar] or [Related] or [Not Found] 
-(Return Similar if it is related to the same class of elements, Related if it is under same topic but might not be the same class of elements)
+# Format: At the last line of the resoponse, write the answer in square brackets. [Accurate] or [Similar] or  [Not Found] 
+(Return Similar if it is related to the same class or category of elements)
+- Give the clear and short 4-5 points of importance if word is similar or found. 
+- Dont give the context if the code is not found.
+- Do not provide extra information if word is completely different.
 """ 
 
 item_detail: f"""
@@ -112,11 +116,15 @@ with page_divide[1]:
 
 
 
-if go:
+if True:
     response = gpt_response(history)
-    full_response = " ".join(response)
+    full_response = response
     st.write("#### Response")
     with st.container(border=True):
         st.info(full_response,)
-
+    
+    # Extract final response as last line [Accurate] or [Similar] or [Not Found], removing []
+    # final_response = full_response.split('\n')[-1]
+    final_response = full_response.split('[')[-1].replace(']', '')
+    st.write(final_response)
 

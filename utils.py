@@ -1,6 +1,14 @@
 import PyPDF2
 import os
 import re
+import pytesseract
+from pdf2image import convert_from_path
+from PIL import Image
+
+
+# /usr/bin/tesseract
+pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
+
 
 def remove_filenames(text):
     # Regular expression to match lines containing ".pdf"
@@ -42,6 +50,32 @@ def get_pdf_text(pdf_file):
         return "The file was not found."
     except Exception as e:
         return f"An error occurred: {e}"
+
+
+def get_text_from_pdf_image(pdf_file):
+    """
+    Extract text from a given PDF file using OCR.
+
+    Parameters:
+    pdf_file (str): The path to the PDF file.
+
+    Returns:
+    str: The extracted text from the PDF.
+    """
+    try:
+        pages = convert_from_path(pdf_file, 600)
+        text_data = ''
+        for i, page in enumerate(pages):
+            # save the image of the page
+            # page.save(f'temp{i}.jpg', 'JPEG')
+            text = pytesseract.image_to_string(page)
+            text_data += remove_filenames(text) + '\n'
+        return text_data
+    except FileNotFoundError:
+        return "The file was not found."
+    except Exception as e:
+        return f"An error occurred: {e}"
+
     
 
 def list_pdf_files(directory):
@@ -54,4 +88,7 @@ def list_pdf_files(directory):
     Returns:
     list: A list of PDF file names.
     """
-    return [f for f in os.listdir(directory) if f.lower().endswith('.pdf')]
+    files = [f for f in os.listdir(directory) if f.lower().endswith('.pdf')]
+    # removing .pdf extension
+    files = [f[:-4] for f in files]
+    return files
